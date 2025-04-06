@@ -1,0 +1,155 @@
+(
+    content: [
+        Clear,
+        Clear,
+        List([
+            InlineText([
+                Text("A"),
+            ], true),
+            InlineText([
+                Text("B"),
+            ], true),
+            InlineText([
+                Text("C"),
+            ], true),
+            InlineText([
+                Text("D"),
+            ], true),
+            InlineText([
+                Text("E"),
+            ], true),
+            InlineText([
+                Text("F"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Paragraph([]),
+        Clear,
+        List([
+            InlineText([
+                Text("A"),
+            ], true),
+            InlineText([
+                Text("B"),
+            ], true),
+            InlineText([
+                Text("C"),
+            ], true),
+            InlineText([
+                Text("D"),
+            ], true),
+            InlineText([
+                Text("E"),
+            ], true),
+            InlineText([
+                Text("F"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Paragraph([]),
+        Clear,
+        List([
+            InlineText([
+                Text("A"),
+            ], true),
+            InlineText([
+                Text("B"),
+            ], true),
+            InlineText([
+                Text("C"),
+            ], true),
+            InlineText([
+                Text("D"),
+            ], true),
+            InlineText([
+                Text("E"),
+            ], true),
+            InlineText([
+                Text("F"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Paragraph([]),
+        Clear,
+        List([
+            InlineText([
+                Text("A"),
+            ], true),
+            InlineText([
+                Text("B"),
+            ], true),
+            InlineText([
+                Text("C"),
+            ], true),
+            InlineText([
+                Text("D"),
+            ], true),
+            InlineText([
+                Text("E"),
+            ], true),
+            InlineText([
+                Text("F"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Paragraph([]),
+        Clear,
+        List([
+            InlineText([
+                Text("a "),
+            ], true),
+            InlineText([
+                Text("b"),
+            ], true),
+            InlineText([
+                Text("C"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Learn more about:"),
+            ], true),
+        ]),
+        Clear,
+        Clear,
+        List([
+            InlineText([
+                TextWithOptions("Integrate using Edge Side Includes (ESI)", (
+                    link: Some("https://docs.publish-bot.com/edge-side-includes"),
+                    styles: [
+                        ("text-decoration", "underline"),
+                        ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                TextWithOptions("Display a Table of Contents", (
+                    link: Some("https://docs.publish-bot.com/display-a-table-of-contents"),
+                    styles: [
+                        ("text-decoration", "underline"),
+                        ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                TextWithOptions("Direct URL", (
+                    link: Some("https://docs.publish-bot.com/direct-url"),
+                    styles: [
+                        ("text-decoration", "underline"),
+                        ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                    ],
+                )),
+            ], false),
+        ]),
+    ],
+    styles: {
+        "pbNORMAL_TEXT": [
+            ("line-height", "1.7249999"),
+        ],
+    },
+)

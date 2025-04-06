@@ -1,0 +1,336 @@
+<style>
+  .pbNORMAL_TEXT {
+    line-height: 1.7249999;
+  }
+</style>
+<h2 id="pb-Lambda%20Calculus">Lambda Calculus</h2>
+<p>
+  If you have never heard about lambda calculus, here is a quick definition
+  found on Wikipedia:
+</p>
+<p>
+  “Lambda calculus (also written as λ-calculus) is a formal system in
+  mathematical logic for expressing computation based on function abstraction
+  and application using variable binding and substitution.”
+</p>
+<p>Basically, this is the syntax:</p>
+<p>&lt;function&gt; ::= λ &lt;variable-list&gt; . &lt;expression&gt;</p>
+<p>An expression is also a variable.</p>
+<p>
+  For example, here is the
+  <a
+    style="text-decoration: underline; color: rgb(6.666667%, 33.333336%, 80%)"
+    href="https://en.wikipedia.org/wiki/Identity_function"
+    >identity function from mathematics</a
+  >:
+</p>
+<pre><code class="language-lambda calculus"><codeblock-js>identity = λx.x
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>
+<p>
+  A more concrete example is its usage to represent types. In the following
+  example:
+</p>
+<pre><code class="language-js"><codeblock-js>function upper(str) {
+  return str.toUpperCase()
+}
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>
+<p>has the type:</p>
+<pre><code class="language-lambda calculus"><codeblock-js>t' = λ t . t
+
+// We can reduce it to infer the return type
+t' = λ string . string
+t' = string
+
+// The result type is `string`
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>
+<h4 id="pb-Let%27s%20define%20booleans">Let's define booleans</h4>
+<pre><code class="language-lambda calculus"><codeblock-js>true = λx.λy.x
+false = λx.λy.y    
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>
+<h4 id="pb-Define%20the%20conditional%20operator">
+  Define the conditional operator
+</h4>
+<pre><code class="language-lambda calculus"><codeblock-js>if = λb.λt.λf.b t f
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>
+<h4 id="pb-Define%20the%20logical%20operators">Define the logical operators</h4>
+<pre><code class="language-lambda calculus"><codeblock-js>and = λbb'. if b b' false
+or = λbb'. if b true b'
+not = λb.if b false true
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>
+<h3 id="pb-Example">Example</h3>
+<p>
+  I decided to use OCaml for this example because it has partial application and
+  a nice REPL.
+</p>
+<p>
+  Since the conditional and logical operators are already in the language, I
+  will prepend them with an underscore.
+</p>
+<h4 id="pb-Translate%20definitions%20into%20OCaml">
+  Translate definitions into OCaml
+</h4>
+<pre><code class="language-ocaml"><codeblock-js>let _true x y = x;;
+(* - : 'a -> 'b -> 'a =  *)
+
+let _false x y = y;;
+(* - : 'a -> 'b -> 'b =  *)
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>
+<p>Note that it's similar to how an identity function works.</p>
+<pre><code class="language-ocaml"><codeblock-js>let _if b t f = b t f;;
+(* - : ('a -> 'b -> 'c) -> 'a -> 'b -> 'c =  *)
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>
+<p>
+  For the sake of simplicity, I won't declare all the operators for now. We can
+  already evaluate some simple conditions.
+</p>
+<pre><code class="language-ocaml"><codeblock-js>(* This is my condition, for now it's a constant `true` *)
+let myCond = _true;;
+
+_if myCond 1 0;;
+(* - : int = 1 *)
+
+(* and if my condition is `false` *)
+let myCond2 = _false;;
+
+_if myCond2 1 0;;
+(* - : int = 0 *)
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>
+<h3 id="pb-Conclusion">Conclusion</h3>
+<p>
+  To be honest, I don't know why you would use this in real life code. There is
+  no need to redefine the built-in condition mechanism.
+</p>
+<p>
+  Thanks to
+  <a
+    style="text-decoration: underline; color: rgb(6.666667%, 33.333336%, 80%)"
+    href="https://twitter.com/dwillems42"
+    >Danny Willems</a
+  >
+  for introducing me to this.
+</p>

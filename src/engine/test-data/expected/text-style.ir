@@ -1,0 +1,131 @@
+(
+    content: [
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("Red", (
+                    styles: [
+                        ("color", "rgb(100%, 0%, 0%)"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("Green", (
+                    styles: [
+                        ("color", "rgb(0%, 100%, 0%)"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("Blue", (
+                    styles: [
+                        ("color", "rgb(29.01961%, 52.549023%, 90.98039%)"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("Red", (
+                    styles: [
+                        ("color", "rgb(100%, 100%, 100%)"),
+                        ("background-color", "rgb(100%, 0%, 0%)"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("Green", (
+                    styles: [
+                        ("color", "rgb(100%, 100%, 100%)"),
+                        ("background-color", "rgb(0%, 100%, 0%)"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("Blue", (
+                    styles: [
+                        ("color", "rgb(100%, 100%, 100%)"),
+                        ("background-color", "rgb(29.01961%, 52.549023%, 90.98039%)"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("Underlined", (
+                    styles: [
+                        ("text-decoration", "underline"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("Bold", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("Bold+Underlined", (
+                    styles: [
+                        ("text-decoration", "underline"),
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("Italic", (
+                    styles: [
+                        ("font-style", "italic"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("Big ", (
+                    styles: [
+                        ("font-size", "30PT"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                TextWithOptions("small", (
+                    styles: [
+                        ("font-size", "8PT"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+    ],
+    styles: {
+        "pbNORMAL_TEXT": [
+            ("line-height", "1.7249999"),
+        ],
+    },
+)

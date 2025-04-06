@@ -1,0 +1,3072 @@
+{
+  "title": "Publish Bot: test Politique de gestion des données personnelles",
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "startIndex": 1,
+        "endIndex": 47,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1,
+              "endIndex": 47,
+              "textRun": {
+                "content": "Politique de gestion des données personnelles\n",
+                "textStyle": {
+                  "bold": true,
+                  "fontSize": {
+                    "magnitude": 17,
+                    "unit": "PT"
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.qtce1b94qfnw",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceBelow": {
+              "magnitude": 4,
+              "unit": "PT"
+            },
+            "keepLinesTogether": false,
+            "keepWithNext": false
+          }
+        }
+      },
+      {
+        "startIndex": 47,
+        "endIndex": 301,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 47,
+              "endIndex": 81,
+              "textRun": {
+                "content": "[Nom de l'entreprise/organisation]",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 81,
+              "endIndex": 301,
+              "textRun": {
+                "content": " s'engage à protéger la vie privée de ses utilisateurs et à traiter leurs données personnelles dans le respect des lois et réglementations en vigueur, notamment le Règlement Général sur la Protection des Données (RGPD).\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 301,
+        "endIndex": 323,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 301,
+              "endIndex": 323,
+              "textRun": {
+                "content": "1. Données collectées\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 323,
+        "endIndex": 363,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 323,
+              "endIndex": 363,
+              "textRun": {
+                "content": "Nous collectons les données suivantes :\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 363,
+        "endIndex": 444,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 363,
+              "endIndex": 389,
+              "textRun": {
+                "content": "Données d'identification :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 389,
+              "endIndex": 444,
+              "textRun": {
+                "content": " nom, prénom, adresse email, numéro de téléphone, etc.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.u4bj4vb6zpo4",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 444,
+        "endIndex": 528,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 444,
+              "endIndex": 466,
+              "textRun": {
+                "content": "Données de connexion :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 466,
+              "endIndex": 528,
+              "textRun": {
+                "content": " adresse IP, type de navigateur, système d'exploitation, etc.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.u4bj4vb6zpo4",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 528,
+        "endIndex": 608,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 528,
+              "endIndex": 551,
+              "textRun": {
+                "content": "Données de navigation :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 551,
+              "endIndex": 608,
+              "textRun": {
+                "content": " pages visitées, liens cliqués, durée de la visite, etc.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.u4bj4vb6zpo4",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 608,
+        "endIndex": 715,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 608,
+              "endIndex": 644,
+              "textRun": {
+                "content": "Données relatives aux transactions :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 644,
+              "endIndex": 715,
+              "textRun": {
+                "content": " historique des achats, informations de paiement, etc. (si applicable)\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.u4bj4vb6zpo4",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 715,
+        "endIndex": 775,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 715,
+              "endIndex": 775,
+              "textRun": {
+                "content": "Toute autre donnée que vous nous fournissez volontairement.\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.u4bj4vb6zpo4",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 775,
+        "endIndex": 802,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 775,
+              "endIndex": 802,
+              "textRun": {
+                "content": "2. Finalités du traitement\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 802,
+        "endIndex": 873,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 802,
+              "endIndex": 873,
+              "textRun": {
+                "content": "Vos données sont collectées et traitées pour les finalités suivantes :\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 873,
+        "endIndex": 971,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 873,
+              "endIndex": 908,
+              "textRun": {
+                "content": "Fournir et améliorer nos services :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 908,
+              "endIndex": 971,
+              "textRun": {
+                "content": " répondre à vos demandes, personnaliser votre expérience, etc.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.kgtcyvjc58js",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 971,
+        "endIndex": 1077,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 971,
+              "endIndex": 1003,
+              "textRun": {
+                "content": "Gérer votre compte utilisateur :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 1003,
+              "endIndex": 1077,
+              "textRun": {
+                "content": " créer et gérer votre compte, traiter vos commandes, etc. (si applicable)\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.kgtcyvjc58js",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1077,
+        "endIndex": 1168,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1077,
+              "endIndex": 1093,
+              "textRun": {
+                "content": "Vous contacter :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 1093,
+              "endIndex": 1168,
+              "textRun": {
+                "content": " répondre à vos questions, vous envoyer des informations importantes, etc.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.kgtcyvjc58js",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1168,
+        "endIndex": 1279,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1168,
+              "endIndex": 1208,
+              "textRun": {
+                "content": "Analyser l'utilisation de nos services :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 1208,
+              "endIndex": 1279,
+              "textRun": {
+                "content": " améliorer nos services, développer de nouvelles fonctionnalités, etc.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.kgtcyvjc58js",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1279,
+        "endIndex": 1332,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1279,
+              "endIndex": 1332,
+              "textRun": {
+                "content": "Respecter nos obligations légales et réglementaires.\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.kgtcyvjc58js",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1332,
+        "endIndex": 1361,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1332,
+              "endIndex": 1361,
+              "textRun": {
+                "content": "3. Base légale du traitement\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 1361,
+        "endIndex": 1431,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1361,
+              "endIndex": 1431,
+              "textRun": {
+                "content": "Le traitement de vos données repose sur les bases légales suivantes :\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 1431,
+        "endIndex": 1545,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1431,
+              "endIndex": 1451,
+              "textRun": {
+                "content": "Votre consentement :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 1451,
+              "endIndex": 1545,
+              "textRun": {
+                "content": " pour certaines opérations de traitement, nous vous demanderons votre consentement explicite.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.4954vvodbx8b",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1545,
+        "endIndex": 1650,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1545,
+              "endIndex": 1571,
+              "textRun": {
+                "content": "L'exécution d'un contrat :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 1571,
+              "endIndex": 1650,
+              "textRun": {
+                "content": " pour traiter vos commandes et gérer votre compte utilisateur (si applicable).\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.4954vvodbx8b",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1650,
+        "endIndex": 1746,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1650,
+              "endIndex": 1686,
+              "textRun": {
+                "content": "Le respect d'une obligation légale :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 1686,
+              "endIndex": 1746,
+              "textRun": {
+                "content": " pour répondre à nos obligations légales et réglementaires.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.4954vvodbx8b",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1746,
+        "endIndex": 1840,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1746,
+              "endIndex": 1770,
+              "textRun": {
+                "content": "Notre intérêt légitime :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 1770,
+              "endIndex": 1840,
+              "textRun": {
+                "content": " pour améliorer nos services et vous proposer des offres pertinentes.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.4954vvodbx8b",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 1840,
+        "endIndex": 1869,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1840,
+              "endIndex": 1869,
+              "textRun": {
+                "content": "4. Destinataires des données\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 1869,
+        "endIndex": 1934,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1869,
+              "endIndex": 1934,
+              "textRun": {
+                "content": "Vos données peuvent être transmises aux destinataires suivants :\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 1934,
+        "endIndex": 2041,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1934,
+              "endIndex": 1966,
+              "textRun": {
+                "content": "Nos employés et sous-traitants :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 1966,
+              "endIndex": 2041,
+              "textRun": {
+                "content": " uniquement dans la mesure nécessaire à l'accomplissement de leurs tâches.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.yuxos7fdmsqj",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 2041,
+        "endIndex": 2106,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2041,
+              "endIndex": 2070,
+              "textRun": {
+                "content": "Nos partenaires commerciaux :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 2070,
+              "endIndex": 2106,
+              "textRun": {
+                "content": " avec votre consentement préalable.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.yuxos7fdmsqj",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 2106,
+        "endIndex": 2162,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2106,
+              "endIndex": 2133,
+              "textRun": {
+                "content": "Les autorités compétentes :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 2133,
+              "endIndex": 2162,
+              "textRun": {
+                "content": " en cas d'obligation légale.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.yuxos7fdmsqj",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 2162,
+        "endIndex": 2187,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2162,
+              "endIndex": 2187,
+              "textRun": {
+                "content": "5. Durée de conservation\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2187,
+        "endIndex": 2394,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2187,
+              "endIndex": 2394,
+              "textRun": {
+                "content": "Vos données sont conservées pendant la durée nécessaire à la réalisation des finalités pour lesquelles elles ont été collectées, et en tout état de cause dans le respect des délais légaux de conservation.  \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2394,
+        "endIndex": 2418,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2394,
+              "endIndex": 2418,
+              "textRun": {
+                "content": "6. Sécurité des données\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2418,
+        "endIndex": 2623,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2418,
+              "endIndex": 2623,
+              "textRun": {
+                "content": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour garantir la sécurité de vos données et prévenir tout accès non autorisé, toute modification, divulgation ou destruction.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2623,
+        "endIndex": 2637,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2623,
+              "endIndex": 2637,
+              "textRun": {
+                "content": "7. Vos droits\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2637,
+        "endIndex": 2709,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2637,
+              "endIndex": 2709,
+              "textRun": {
+                "content": "Vous disposez des droits suivants concernant vos données personnelles :\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2709,
+        "endIndex": 2785,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2709,
+              "endIndex": 2724,
+              "textRun": {
+                "content": "Droit d'accès :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 2724,
+              "endIndex": 2785,
+              "textRun": {
+                "content": " vous pouvez accéder aux données que nous détenons sur vous.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.1qalb8ghl39x",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 2785,
+        "endIndex": 2883,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2785,
+              "endIndex": 2809,
+              "textRun": {
+                "content": "Droit de rectification :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 2809,
+              "endIndex": 2883,
+              "textRun": {
+                "content": " vous pouvez demander la correction des données inexactes ou incomplètes.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.1qalb8ghl39x",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 2883,
+        "endIndex": 2987,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2883,
+              "endIndex": 2905,
+              "textRun": {
+                "content": "Droit à l'effacement :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 2905,
+              "endIndex": 2987,
+              "textRun": {
+                "content": " vous pouvez demander la suppression de vos données dans certaines circonstances.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.1qalb8ghl39x",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 2987,
+        "endIndex": 3119,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2987,
+              "endIndex": 3024,
+              "textRun": {
+                "content": "Droit à la limitation du traitement :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 3024,
+              "endIndex": 3119,
+              "textRun": {
+                "content": " vous pouvez demander la limitation du traitement de vos données dans certaines circonstances.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.1qalb8ghl39x",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 3119,
+        "endIndex": 3214,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3119,
+              "endIndex": 3155,
+              "textRun": {
+                "content": "Droit à la portabilité des données :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 3155,
+              "endIndex": 3214,
+              "textRun": {
+                "content": " vous pouvez recevoir vos données dans un format portable.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.1qalb8ghl39x",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 3214,
+        "endIndex": 3319,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3214,
+              "endIndex": 3234,
+              "textRun": {
+                "content": "Droit d'opposition :",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 3234,
+              "endIndex": 3319,
+              "textRun": {
+                "content": " vous pouvez vous opposer au traitement de vos données dans certaines circonstances.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.1qalb8ghl39x",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 3319,
+        "endIndex": 3417,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3319,
+              "endIndex": 3400,
+              "textRun": {
+                "content": "Pour exercer vos droits, vous pouvez nous contacter à l'adresse email suivante : ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 3400,
+              "endIndex": 3415,
+              "textRun": {
+                "content": "[adresse email]",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 3415,
+              "endIndex": 3417,
+              "textRun": {
+                "content": ".\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 3417,
+        "endIndex": 3428,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3417,
+              "endIndex": 3428,
+              "textRun": {
+                "content": "8. Cookies\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 3428,
+        "endIndex": 3638,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3428,
+              "endIndex": 3638,
+              "textRun": {
+                "content": "Nous utilisons des cookies pour améliorer votre expérience sur notre site web. Vous pouvez configurer votre navigateur pour refuser les cookies, mais cela pourrait affecter certaines fonctionnalités du site.  \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 3638,
+        "endIndex": 3671,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3638,
+              "endIndex": 3671,
+              "textRun": {
+                "content": "9. Modifications de la politique\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 3671,
+        "endIndex": 3833,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3671,
+              "endIndex": 3833,
+              "textRun": {
+                "content": "Nous nous réservons le droit de modifier cette politique de gestion des données personnelles à tout moment. Les modifications seront publiées sur notre site web.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 3833,
+        "endIndex": 3845,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3833,
+              "endIndex": 3845,
+              "textRun": {
+                "content": "10. Contact\n",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 3845,
+        "endIndex": 3966,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3845,
+              "endIndex": 3949,
+              "textRun": {
+                "content": "Pour toute question relative à cette politique, vous pouvez nous contacter à l'adresse email suivante : ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 3949,
+              "endIndex": 3964,
+              "textRun": {
+                "content": "[adresse email]",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 3964,
+              "endIndex": 3966,
+              "textRun": {
+                "content": ".\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 3966,
+        "endIndex": 4000,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 3966,
+              "endIndex": 3999,
+              "textRun": {
+                "content": "[Date de la dernière mise à jour]",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 3999,
+              "endIndex": 4000,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceAbove": {
+              "magnitude": 12,
+              "unit": "PT"
+            },
+            "spaceBelow": {
+              "magnitude": 12,
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 4000,
+        "endIndex": 4001,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 4000,
+              "endIndex": 4001,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      }
+    ]
+  },
+  "documentStyle": {
+    "background": {
+      "color": {}
+    },
+    "pageNumberStart": 1,
+    "marginTop": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginBottom": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginRight": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginLeft": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "pageSize": {
+      "height": {
+        "magnitude": 841.8897637795277,
+        "unit": "PT"
+      },
+      "width": {
+        "magnitude": 595.27559055118115,
+        "unit": "PT"
+      }
+    },
+    "marginHeader": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "marginFooter": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "useCustomHeaderFooterMargins": true
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "textStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "smallCaps": false,
+          "backgroundColor": {},
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          },
+          "baselineOffset": "NONE"
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "alignment": "START",
+          "lineSpacing": 115,
+          "direction": "LEFT_TO_RIGHT",
+          "spacingMode": "COLLAPSE_LISTS",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "unit": "PT"
+          },
+          "borderBetween": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderTop": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderBottom": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderLeft": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderRight": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "indentFirstLine": {
+            "unit": "PT"
+          },
+          "indentStart": {
+            "unit": "PT"
+          },
+          "indentEnd": {
+            "unit": "PT"
+          },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "avoidWidowAndOrphan": true,
+          "shading": {
+            "backgroundColor": {}
+          },
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 20,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "textStyle": {
+          "bold": false,
+          "fontSize": {
+            "magnitude": 16,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 18,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "textStyle": {
+          "bold": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.2627451,
+                "green": 0.2627451,
+                "blue": 0.2627451
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 14,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 12,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 14,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "textStyle": {
+          "italic": true,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "TITLE",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 26,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 3,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "SUBTITLE",
+        "textStyle": {
+          "italic": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 15,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      }
+    ]
+  },
+  "lists": {
+    "kix.1qalb8ghl39x": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.4954vvodbx8b": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.kgtcyvjc58js": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.u4bj4vb6zpo4": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.yuxos7fdmsqj": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    }
+  },
+  "revisionId": "ALBJ4LtVWjE4qmcTuk3sej0ZVZJ7iLaS9wxHGl7iNQaoXu2bZCtA1N1ne4fzWMtNYyLmkNOG4akSBjV83h65TDQ",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "documentId": "1C-pV1xdDL6L7-MXkWU8gUmx1Yh3BC2XGdr20QAch-lI"
+}
+

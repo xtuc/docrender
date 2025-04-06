@@ -1,0 +1,1125 @@
+{
+  "title": "Publish-Bot sauleau.com: The pipeline operator is already available in JavaScript",
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "startIndex": 1,
+        "endIndex": 15,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1,
+              "endIndex": 15,
+              "textRun": {
+                "content": "What is this?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.z1pqy8do1qlx",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 15,
+        "endIndex": 95,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 15,
+              "endIndex": 43,
+              "textRun": {
+                "content": "This refers to the proposal ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 43,
+              "endIndex": 93,
+              "textRun": {
+                "content": "https://github.com/tc39/proposal-pipeline-operator",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://github.com/tc39/proposal-pipeline-operator"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 93,
+              "endIndex": 95,
+              "textRun": {
+                "content": ".\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 95,
+        "endIndex": 123,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 95,
+              "endIndex": 123,
+              "textRun": {
+                "content": "Define the compose function\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.z608uybssfbw",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 123,
+        "endIndex": 210,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 123,
+              "endIndex": 210,
+              "textRun": {
+                "content": "While ∘ is the official symbol in mathematics, it's not a valid JavaScript identifier.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 210,
+        "endIndex": 285,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 210,
+              "endIndex": 285,
+              "textRun": {
+                "content": "I will be using ᐅ which looks like the pipe operator |\u003e in most languages.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 285,
+        "endIndex": 286,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 285,
+              "endIndex": 286,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 286,
+        "endIndex": 294,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 286,
+              "endIndex": 294,
+              "textRun": {
+                "content": "```js  \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 294,
+        "endIndex": 329,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 294,
+              "endIndex": 329,
+              "textRun": {
+                "content": "String.prototype.ᐅ = function(f) {\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 329,
+        "endIndex": 346,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 329,
+              "endIndex": 346,
+              "textRun": {
+                "content": "  return f(this)\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 346,
+        "endIndex": 348,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 346,
+              "endIndex": 348,
+              "textRun": {
+                "content": "}\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 348,
+        "endIndex": 352,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 348,
+              "endIndex": 352,
+              "textRun": {
+                "content": "```\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 352,
+        "endIndex": 353,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 352,
+              "endIndex": 353,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 353,
+        "endIndex": 469,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 353,
+              "endIndex": 469,
+              "textRun": {
+                "content": "Note that it's a new method on JavaScript's String object. It could work the same on every object (even on Object).\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 469,
+        "endIndex": 475,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 469,
+              "endIndex": 475,
+              "textRun": {
+                "content": "Usage\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.i795oocbiczv",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 475,
+        "endIndex": 520,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 475,
+              "endIndex": 520,
+              "textRun": {
+                "content": "This is the same example as in the proposal.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 520,
+        "endIndex": 521,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 520,
+              "endIndex": 521,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 521,
+        "endIndex": 527,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 521,
+              "endIndex": 527,
+              "textRun": {
+                "content": "```js\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 527,
+        "endIndex": 554,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 527,
+              "endIndex": 554,
+              "textRun": {
+                "content": "function doubleSay (str) {\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 554,
+        "endIndex": 581,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 554,
+              "endIndex": 581,
+              "textRun": {
+                "content": "  return str + \", \" + str;\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 581,
+        "endIndex": 583,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 581,
+              "endIndex": 583,
+              "textRun": {
+                "content": "}\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 583,
+        "endIndex": 611,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 583,
+              "endIndex": 611,
+              "textRun": {
+                "content": "function capitalize (str) {\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 611,
+        "endIndex": 661,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 611,
+              "endIndex": 661,
+              "textRun": {
+                "content": "  return str[0].toUpperCase() + str.substring(1);\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 661,
+        "endIndex": 663,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 661,
+              "endIndex": 663,
+              "textRun": {
+                "content": "}\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 663,
+        "endIndex": 688,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 663,
+              "endIndex": 688,
+              "textRun": {
+                "content": "function exclaim (str) {\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 688,
+        "endIndex": 708,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 688,
+              "endIndex": 708,
+              "textRun": {
+                "content": "  return str + '!';\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 708,
+        "endIndex": 710,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 708,
+              "endIndex": 710,
+              "textRun": {
+                "content": "}\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 710,
+        "endIndex": 711,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 710,
+              "endIndex": 711,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 711,
+        "endIndex": 732,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 711,
+              "endIndex": 732,
+              "textRun": {
+                "content": "let result = \"hello\"\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 732,
+        "endIndex": 749,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 732,
+              "endIndex": 749,
+              "textRun": {
+                "content": "  .ᐅ (doubleSay)\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 749,
+        "endIndex": 767,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 749,
+              "endIndex": 767,
+              "textRun": {
+                "content": "  .ᐅ (capitalize)\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 767,
+        "endIndex": 782,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 767,
+              "endIndex": 782,
+              "textRun": {
+                "content": "  .ᐅ (exclaim)\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 782,
+        "endIndex": 783,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 782,
+              "endIndex": 783,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 783,
+        "endIndex": 811,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 783,
+              "endIndex": 811,
+              "textRun": {
+                "content": "result //=\u003e \"Hello, hello!\"\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 811,
+        "endIndex": 815,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 811,
+              "endIndex": 815,
+              "textRun": {
+                "content": "```\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      }
+    ]
+  },
+  "documentStyle": {
+    "background": {
+      "color": {}
+    },
+    "pageNumberStart": 1,
+    "marginTop": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginBottom": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginRight": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginLeft": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "pageSize": {
+      "height": {
+        "magnitude": 841.8897637795277,
+        "unit": "PT"
+      },
+      "width": {
+        "magnitude": 595.27559055118115,
+        "unit": "PT"
+      }
+    },
+    "marginHeader": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "marginFooter": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "useCustomHeaderFooterMargins": true
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "textStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "smallCaps": false,
+          "backgroundColor": {},
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          },
+          "baselineOffset": "NONE"
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "alignment": "START",
+          "lineSpacing": 115,
+          "direction": "LEFT_TO_RIGHT",
+          "spacingMode": "COLLAPSE_LISTS",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "unit": "PT"
+          },
+          "borderBetween": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderTop": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderBottom": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderLeft": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderRight": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "indentFirstLine": {
+            "unit": "PT"
+          },
+          "indentStart": {
+            "unit": "PT"
+          },
+          "indentEnd": {
+            "unit": "PT"
+          },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "avoidWidowAndOrphan": true,
+          "shading": {
+            "backgroundColor": {}
+          },
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 20,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "textStyle": {
+          "bold": false,
+          "fontSize": {
+            "magnitude": 16,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 18,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "textStyle": {
+          "bold": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.2627451,
+                "green": 0.2627451,
+                "blue": 0.2627451
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 14,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 12,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 14,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "textStyle": {
+          "italic": true,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "TITLE",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 26,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 3,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "SUBTITLE",
+        "textStyle": {
+          "italic": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 15,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      }
+    ]
+  },
+  "revisionId": "ALBJ4LvjTTrojovdlg56ulwqiELtuZgfKzvBHhSXqpweATMx7moBvExbHuU3vgOjnYw64VJxdNYuWPngtwGBOCo",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "documentId": "1v-aqMQJRY-R5Tss05J1oDjkKU5otfKd81H4ErEPTK-E"
+}

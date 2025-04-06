@@ -1,0 +1,33 @@
+(
+    content: [
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("Sven Sauleau", (
+                    link: Some("mailto:Sven.sauleau@gmail.com"),
+                )),
+            ], false),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("cloudflare.com", (
+                    link: Some("http://cloudflare.com"),
+                    styles: [
+                        ("text-decoration", "underline"),
+                        ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                Text("."),
+            ], true),
+        ]),
+        Clear,
+    ],
+    styles: {
+        "pbNORMAL_TEXT": [
+            ("line-height", "1.7249999"),
+        ],
+    },
+)

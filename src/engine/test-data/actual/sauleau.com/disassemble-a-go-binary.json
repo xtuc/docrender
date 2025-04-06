@@ -1,0 +1,2299 @@
+{
+  "title": "Publish-Bot sauleau.com: Disassemble a Go binary",
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "startIndex": 1,
+        "endIndex": 16,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1,
+              "endIndex": 16,
+              "textRun": {
+                "content": "Simple program\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.7ouybujkxmxk",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 16,
+        "endIndex": 62,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 16,
+              "endIndex": 62,
+              "textRun": {
+                "content": "The example project uses the following files:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 62,
+        "endIndex": 63,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 62,
+              "endIndex": 63,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 63,
+        "endIndex": 81,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 63,
+              "endIndex": 81,
+              "textRun": {
+                "content": "secret/secret.go:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.x0frrybr48xx",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 81,
+        "endIndex": 82,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 81,
+              "endIndex": 82,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 82,
+        "endIndex": 88,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 82,
+              "endIndex": 88,
+              "textRun": {
+                "content": "```go\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 88,
+        "endIndex": 103,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 88,
+              "endIndex": 103,
+              "textRun": {
+                "content": "package secret\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 103,
+        "endIndex": 104,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 103,
+              "endIndex": 104,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 104,
+        "endIndex": 117,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 104,
+              "endIndex": 117,
+              "textRun": {
+                "content": "import \"log\"\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 117,
+        "endIndex": 118,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 117,
+              "endIndex": 118,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 118,
+        "endIndex": 139,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 118,
+              "endIndex": 139,
+              "textRun": {
+                "content": "func ILoveTrains() {\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 139,
+        "endIndex": 165,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 139,
+              "endIndex": 165,
+              "textRun": {
+                "content": "    log.Println(\"secret\")\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 165,
+        "endIndex": 167,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 165,
+              "endIndex": 167,
+              "textRun": {
+                "content": "}\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 167,
+        "endIndex": 174,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 167,
+              "endIndex": 174,
+              "textRun": {
+                "content": "```   \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 174,
+        "endIndex": 181,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 174,
+              "endIndex": 181,
+              "textRun": {
+                "content": "      \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 181,
+        "endIndex": 199,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 181,
+              "endIndex": 199,
+              "textRun": {
+                "content": "cmd/test/main.go:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.p7oe8nrn3ate",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 199,
+        "endIndex": 200,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 199,
+              "endIndex": 200,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 200,
+        "endIndex": 206,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 200,
+              "endIndex": 206,
+              "textRun": {
+                "content": "```go\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 206,
+        "endIndex": 219,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 206,
+              "endIndex": 219,
+              "textRun": {
+                "content": "package main\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 219,
+        "endIndex": 220,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 219,
+              "endIndex": 220,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 220,
+        "endIndex": 260,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 220,
+              "endIndex": 260,
+              "textRun": {
+                "content": "import \"github.com/xtuc/example/secret\"\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 260,
+        "endIndex": 261,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 260,
+              "endIndex": 261,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 261,
+        "endIndex": 275,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 261,
+              "endIndex": 275,
+              "textRun": {
+                "content": "func main() {\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 275,
+        "endIndex": 300,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 275,
+              "endIndex": 300,
+              "textRun": {
+                "content": "    secret.ILoveTrains()\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 300,
+        "endIndex": 302,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 300,
+              "endIndex": 302,
+              "textRun": {
+                "content": "}\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 302,
+        "endIndex": 306,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 302,
+              "endIndex": 306,
+              "textRun": {
+                "content": "```\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 306,
+        "endIndex": 318,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 306,
+              "endIndex": 318,
+              "textRun": {
+                "content": "Disassembly\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.3p4ys9nq7tc",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 318,
+        "endIndex": 439,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 318,
+              "endIndex": 439,
+              "textRun": {
+                "content": "You actually don't need to disassemble the binary. For the sake of simplicity, I'll only use strings against the binary.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 439,
+        "endIndex": 440,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 439,
+              "endIndex": 440,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 440,
+        "endIndex": 448,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 440,
+              "endIndex": 448,
+              "textRun": {
+                "content": "```bash\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 448,
+        "endIndex": 462,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 448,
+              "endIndex": 462,
+              "textRun": {
+                "content": "$ cd cmd/test\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 462,
+        "endIndex": 473,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 462,
+              "endIndex": 473,
+              "textRun": {
+                "content": "$ go build\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 473,
+        "endIndex": 504,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 473,
+              "endIndex": 504,
+              "textRun": {
+                "content": "$ strings ./test | grep secret\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 504,
+        "endIndex": 505,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 504,
+              "endIndex": 505,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 505,
+        "endIndex": 548,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 505,
+              "endIndex": 548,
+              "textRun": {
+                "content": "github.com/xtuc/example/secret.ILoveTrains\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 548,
+        "endIndex": 552,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 548,
+              "endIndex": 552,
+              "textRun": {
+                "content": "[…]\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 552,
+        "endIndex": 556,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 552,
+              "endIndex": 556,
+              "textRun": {
+                "content": "```\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 556,
+        "endIndex": 557,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 556,
+              "endIndex": 557,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 557,
+        "endIndex": 634,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 557,
+              "endIndex": 634,
+              "textRun": {
+                "content": "Note that Go won't include can that you don't use. All the imports are used.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 634,
+        "endIndex": 635,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 634,
+              "endIndex": 635,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 635,
+        "endIndex": 824,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 635,
+              "endIndex": 824,
+              "textRun": {
+                "content": "We can clearly see that github.com/xtuc is loving trains and even see the file structure. It makes no sense to include such information in the final binary, it's what we call a disclosure.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 824,
+        "endIndex": 825,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 824,
+              "endIndex": 825,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 825,
+        "endIndex": 923,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 825,
+              "endIndex": 923,
+              "textRun": {
+                "content": "You might have noticed that I didn't stripped the binary. Let's try again with a stripped binary.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 923,
+        "endIndex": 924,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 923,
+              "endIndex": 924,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 924,
+        "endIndex": 932,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 924,
+              "endIndex": 932,
+              "textRun": {
+                "content": "```bash\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 932,
+        "endIndex": 946,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 932,
+              "endIndex": 946,
+              "textRun": {
+                "content": "$ cd cmd/test\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 946,
+        "endIndex": 974,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 946,
+              "endIndex": 974,
+              "textRun": {
+                "content": "$ go build -ldflags=\"-s -w\"\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 974,
+        "endIndex": 988,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 974,
+              "endIndex": 988,
+              "textRun": {
+                "content": "$ file ./test\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 988,
+        "endIndex": 1033,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 988,
+              "endIndex": 1033,
+              "textRun": {
+                "content": "test: ELF 64-bit LSB executable […] stripped\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1033,
+        "endIndex": 1064,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1033,
+              "endIndex": 1064,
+              "textRun": {
+                "content": "$ strings ./test | grep secret\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1064,
+        "endIndex": 1065,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1064,
+              "endIndex": 1065,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1065,
+        "endIndex": 1108,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1065,
+              "endIndex": 1108,
+              "textRun": {
+                "content": "github.com/xtuc/example/secret.ILoveTrains\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1108,
+        "endIndex": 1112,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1108,
+              "endIndex": 1112,
+              "textRun": {
+                "content": "[…]\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1112,
+        "endIndex": 1116,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1112,
+              "endIndex": 1116,
+              "textRun": {
+                "content": "```\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1116,
+        "endIndex": 1123,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1116,
+              "endIndex": 1123,
+              "textRun": {
+                "content": "      \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1123,
+        "endIndex": 1197,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1123,
+              "endIndex": 1197,
+              "textRun": {
+                "content": "Even with a stripped (it's meant for distribution) we can still see them.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1197,
+        "endIndex": 1198,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1197,
+              "endIndex": 1198,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1198,
+        "endIndex": 1268,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1198,
+              "endIndex": 1268,
+              "textRun": {
+                "content": "Since the binary is stripped we don't have debugging symbols anymore:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1268,
+        "endIndex": 1269,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1268,
+              "endIndex": 1269,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1269,
+        "endIndex": 1277,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1269,
+              "endIndex": 1277,
+              "textRun": {
+                "content": "```bash\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1277,
+        "endIndex": 1289,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1277,
+              "endIndex": 1289,
+              "textRun": {
+                "content": "$ nm ./test\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1289,
+        "endIndex": 1312,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1289,
+              "endIndex": 1312,
+              "textRun": {
+                "content": "nm: ./test: no symbols\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1312,
+        "endIndex": 1316,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1312,
+              "endIndex": 1316,
+              "textRun": {
+                "content": "```\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1316,
+        "endIndex": 1353,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1316,
+              "endIndex": 1353,
+              "textRun": {
+                "content": "Stack Overflow, what's the solution?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.yzrg18fg4in1",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1353,
+        "endIndex": 1443,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1353,
+              "endIndex": 1443,
+              "textRun": {
+                "content": "Stack Overflow can be useful in many cases, but not this time. This is the answer I read:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1443,
+        "endIndex": 1444,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1443,
+              "endIndex": 1444,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1444,
+        "endIndex": 1471,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1444,
+              "endIndex": 1471,
+              "textRun": {
+                "content": "Why do you need even that?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1471,
+        "endIndex": 1505,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1471,
+              "endIndex": 1505,
+              "textRun": {
+                "content": "Don't distribute Golang binaries.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1505,
+        "endIndex": 1506,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1505,
+              "endIndex": 1506,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1506,
+        "endIndex": 1530,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1506,
+              "endIndex": 1530,
+              "textRun": {
+                "content": "Definitely not helpful.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1530,
+        "endIndex": 1531,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1530,
+              "endIndex": 1531,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1531,
+        "endIndex": 1560,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1531,
+              "endIndex": 1560,
+              "textRun": {
+                "content": "Golang, what's the solution?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.3sulnpbdvyn",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1560,
+        "endIndex": 1685,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1560,
+              "endIndex": 1685,
+              "textRun": {
+                "content": "I didn't ask, so this is not their answer: as many things in Golang, it's highly opinionated and specific to Google's needs.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1685,
+        "endIndex": 1686,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1685,
+              "endIndex": 1686,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1686,
+        "endIndex": 1783,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1686,
+              "endIndex": 1783,
+              "textRun": {
+                "content": "Since they don't distribute any Go binary, why would they invest time in an obfuscation process.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1783,
+        "endIndex": 1784,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1783,
+              "endIndex": 1784,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1784,
+        "endIndex": 1810,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1784,
+              "endIndex": 1810,
+              "textRun": {
+                "content": "What's the real solution?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.cjcxv6ah4s0p",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1810,
+        "endIndex": 1925,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1810,
+              "endIndex": 1925,
+              "textRun": {
+                "content": "Since the Golang compiler won't mangle function names, I decided to mangle them before passing it to the compiler.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1925,
+        "endIndex": 1926,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1925,
+              "endIndex": 1926,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1926,
+        "endIndex": 1981,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1926,
+              "endIndex": 1949,
+              "textRun": {
+                "content": "It's a source mangler: ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 1949,
+              "endIndex": 1979,
+              "textRun": {
+                "content": "https://github.com/xtuc/manglo",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://github.com/xtuc/manglo"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1979,
+              "endIndex": 1980,
+              "textRun": {
+                "content": ".",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 1980,
+              "endIndex": 1981,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1981,
+        "endIndex": 1982,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1981,
+              "endIndex": 1982,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1982,
+        "endIndex": 2012,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1982,
+              "endIndex": 2012,
+              "textRun": {
+                "content": "Alternative compiler backends\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.bjfhaeowv2a",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2012,
+        "endIndex": 2218,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2012,
+              "endIndex": 2218,
+              "textRun": {
+                "content": "My example uses the default Go compiler. I tried the gccgo compiler (GCC with a Go fronted) but it refused to compile because the imports weren't quite the same (might have changed somewhere around Go1.9).\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2218,
+        "endIndex": 2219,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2218,
+              "endIndex": 2219,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2219,
+        "endIndex": 2242,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2219,
+              "endIndex": 2242,
+              "textRun": {
+                "content": "GCC mangles all names.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2242,
+        "endIndex": 2243,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2242,
+              "endIndex": 2243,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2243,
+        "endIndex": 2252,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2243,
+              "endIndex": 2252,
+              "textRun": {
+                "content": "Packing?\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.ng6isozbyp3x",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2252,
+        "endIndex": 2311,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2252,
+              "endIndex": 2311,
+              "textRun": {
+                "content": "Packing the binary will indeed removing the clear strings.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2311,
+        "endIndex": 2404,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2311,
+              "endIndex": 2404,
+              "textRun": {
+                "content": "Anyone having disassemble skills will notice it immediately and revert the process (unpack).\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2404,
+        "endIndex": 2445,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2404,
+              "endIndex": 2445,
+              "textRun": {
+                "content": "I'm not sure if it works cross-platform.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2445,
+        "endIndex": 2446,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2445,
+              "endIndex": 2446,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2446,
+        "endIndex": 2447,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2446,
+              "endIndex": 2447,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      }
+    ]
+  },
+  "documentStyle": {
+    "background": {
+      "color": {}
+    },
+    "pageNumberStart": 1,
+    "marginTop": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginBottom": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginRight": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginLeft": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "pageSize": {
+      "height": {
+        "magnitude": 841.8897637795277,
+        "unit": "PT"
+      },
+      "width": {
+        "magnitude": 595.27559055118115,
+        "unit": "PT"
+      }
+    },
+    "marginHeader": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "marginFooter": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "useCustomHeaderFooterMargins": true
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "textStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "smallCaps": false,
+          "backgroundColor": {},
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          },
+          "baselineOffset": "NONE"
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "alignment": "START",
+          "lineSpacing": 115,
+          "direction": "LEFT_TO_RIGHT",
+          "spacingMode": "COLLAPSE_LISTS",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "unit": "PT"
+          },
+          "borderBetween": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderTop": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderBottom": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderLeft": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderRight": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "indentFirstLine": {
+            "unit": "PT"
+          },
+          "indentStart": {
+            "unit": "PT"
+          },
+          "indentEnd": {
+            "unit": "PT"
+          },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "avoidWidowAndOrphan": true,
+          "shading": {
+            "backgroundColor": {}
+          },
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 20,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "textStyle": {
+          "bold": false,
+          "fontSize": {
+            "magnitude": 16,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 18,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "textStyle": {
+          "bold": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.2627451,
+                "green": 0.2627451,
+                "blue": 0.2627451
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 14,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 12,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 14,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "textStyle": {
+          "italic": true,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "TITLE",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 26,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 3,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "SUBTITLE",
+        "textStyle": {
+          "italic": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 15,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      }
+    ]
+  },
+  "revisionId": "ALBJ4LsHDT6Hhpsb9pDFPmCp2J4icMxFd-UZ-8pcyrUt_wIXE1PzEAbjv-bnHErPlg0ssyU41QYKcH7SFoR4S90",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "documentId": "1IT6DofQeAFuuLSFz1_Xe5sdcUEK8m2Hkg7opgCqe1M4"
+}

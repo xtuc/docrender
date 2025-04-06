@@ -1,0 +1,73 @@
+(
+    content: [
+        Clear,
+        Title((
+            level: 2,
+            text: Text("What is this?"),
+        ), []),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("This refers to the proposal "),
+            ], false),
+            InlineText([
+                TextWithOptions("https://github.com/tc39/proposal-pipeline-operator", (
+                    link: Some("https://github.com/tc39/proposal-pipeline-operator"),
+                    styles: [
+                        ("text-decoration", "underline"),
+                        ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                Text("."),
+            ], true),
+        ]),
+        Clear,
+        Title((
+            level: 2,
+            text: Text("Define the compose function"),
+        ), []),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("While ∘ is the official symbol in mathematics, it\'s not a valid JavaScript identifier."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("I will be using ᐅ which looks like the pipe operator |> in most languages."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Code("js", "String.prototype.ᐅ = function(f) {\n  return f(this)\n}\n"),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Note that it\'s a new method on JavaScript\'s String object. It could work the same on every object (even on Object)."),
+            ], true),
+        ]),
+        Clear,
+        Title((
+            level: 2,
+            text: Text("Usage"),
+        ), []),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("This is the same example as in the proposal."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Code("js", "function doubleSay (str) {\n  return str + \", \" + str;\n}\nfunction capitalize (str) {\n  return str[0].toUpperCase() + str.substring(1);\n}\nfunction exclaim (str) {\n  return str + \'!\';\n}\n\nlet result = \"hello\"\n  .ᐅ (doubleSay)\n  .ᐅ (capitalize)\n  .ᐅ (exclaim)\n\nresult //=> \"Hello, hello!\"\n"),
+        Clear,
+    ],
+    styles: {
+        "pbNORMAL_TEXT": [
+            ("line-height", "1.7249999"),
+        ],
+    },
+)

@@ -1,0 +1,427 @@
+(
+    content: [
+        Clear,
+        Title((
+            level: 3,
+            text: Text("Politique de gestion des données personnelles"),
+        ), []),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("[Nom de l\'entreprise/organisation]", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                Text(" s\'engage à protéger la vie privée de ses utilisateurs et à traiter leurs données personnelles dans le respect des lois et réglementations en vigueur, notamment le Règlement Général sur la Protection des Données (RGPD)."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("1. Données collectées", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Nous collectons les données suivantes :"),
+            ], true),
+        ]),
+        Clear,
+        Clear,
+        List([
+            InlineText([
+                TextWithOptions("Données d\'identification :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" nom, prénom, adresse email, numéro de téléphone, etc."),
+            ], true),
+            InlineText([
+                TextWithOptions("Données de connexion :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" adresse IP, type de navigateur, système d\'exploitation, etc."),
+            ], true),
+            InlineText([
+                TextWithOptions("Données de navigation :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" pages visitées, liens cliqués, durée de la visite, etc."),
+            ], true),
+            InlineText([
+                TextWithOptions("Données relatives aux transactions :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" historique des achats, informations de paiement, etc. (si applicable)"),
+            ], true),
+            InlineText([
+                TextWithOptions("Toute autre donnée que vous nous fournissez volontairement.", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("2. Finalités du traitement", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Vos données sont collectées et traitées pour les finalités suivantes :"),
+            ], true),
+        ]),
+        Clear,
+        Clear,
+        List([
+            InlineText([
+                TextWithOptions("Fournir et améliorer nos services :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" répondre à vos demandes, personnaliser votre expérience, etc."),
+            ], true),
+            InlineText([
+                TextWithOptions("Gérer votre compte utilisateur :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" créer et gérer votre compte, traiter vos commandes, etc. (si applicable)"),
+            ], true),
+            InlineText([
+                TextWithOptions("Vous contacter :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" répondre à vos questions, vous envoyer des informations importantes, etc."),
+            ], true),
+            InlineText([
+                TextWithOptions("Analyser l\'utilisation de nos services :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" améliorer nos services, développer de nouvelles fonctionnalités, etc."),
+            ], true),
+            InlineText([
+                TextWithOptions("Respecter nos obligations légales et réglementaires.", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("3. Base légale du traitement", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Le traitement de vos données repose sur les bases légales suivantes :"),
+            ], true),
+        ]),
+        Clear,
+        Clear,
+        List([
+            InlineText([
+                TextWithOptions("Votre consentement :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" pour certaines opérations de traitement, nous vous demanderons votre consentement explicite."),
+            ], true),
+            InlineText([
+                TextWithOptions("L\'exécution d\'un contrat :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" pour traiter vos commandes et gérer votre compte utilisateur (si applicable)."),
+            ], true),
+            InlineText([
+                TextWithOptions("Le respect d\'une obligation légale :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" pour répondre à nos obligations légales et réglementaires."),
+            ], true),
+            InlineText([
+                TextWithOptions("Notre intérêt légitime :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" pour améliorer nos services et vous proposer des offres pertinentes."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("4. Destinataires des données", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Vos données peuvent être transmises aux destinataires suivants :"),
+            ], true),
+        ]),
+        Clear,
+        Clear,
+        List([
+            InlineText([
+                TextWithOptions("Nos employés et sous-traitants :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" uniquement dans la mesure nécessaire à l\'accomplissement de leurs tâches."),
+            ], true),
+            InlineText([
+                TextWithOptions("Nos partenaires commerciaux :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" avec votre consentement préalable."),
+            ], true),
+            InlineText([
+                TextWithOptions("Les autorités compétentes :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" en cas d\'obligation légale."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("5. Durée de conservation", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Vos données sont conservées pendant la durée nécessaire à la réalisation des finalités pour lesquelles elles ont été collectées, et en tout état de cause dans le respect des délais légaux de conservation.  "),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("6. Sécurité des données", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour garantir la sécurité de vos données et prévenir tout accès non autorisé, toute modification, divulgation ou destruction."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("7. Vos droits", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Vous disposez des droits suivants concernant vos données personnelles :"),
+            ], true),
+        ]),
+        Clear,
+        Clear,
+        List([
+            InlineText([
+                TextWithOptions("Droit d\'accès :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" vous pouvez accéder aux données que nous détenons sur vous."),
+            ], true),
+            InlineText([
+                TextWithOptions("Droit de rectification :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" vous pouvez demander la correction des données inexactes ou incomplètes."),
+            ], true),
+            InlineText([
+                TextWithOptions("Droit à l\'effacement :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" vous pouvez demander la suppression de vos données dans certaines circonstances."),
+            ], true),
+            InlineText([
+                TextWithOptions("Droit à la limitation du traitement :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" vous pouvez demander la limitation du traitement de vos données dans certaines circonstances."),
+            ], true),
+            InlineText([
+                TextWithOptions("Droit à la portabilité des données :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" vous pouvez recevoir vos données dans un format portable."),
+            ], true),
+            InlineText([
+                TextWithOptions("Droit d\'opposition :", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+                Text(" vous pouvez vous opposer au traitement de vos données dans certaines circonstances."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Pour exercer vos droits, vous pouvez nous contacter à l\'adresse email suivante : "),
+            ], false),
+            InlineText([
+                TextWithOptions("[adresse email]", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                Text("."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("8. Cookies", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Nous utilisons des cookies pour améliorer votre expérience sur notre site web. Vous pouvez configurer votre navigateur pour refuser les cookies, mais cela pourrait affecter certaines fonctionnalités du site.  "),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("9. Modifications de la politique", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Nous nous réservons le droit de modifier cette politique de gestion des données personnelles à tout moment. Les modifications seront publiées sur notre site web."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("10. Contact", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Pour toute question relative à cette politique, vous pouvez nous contacter à l\'adresse email suivante : "),
+            ], false),
+            InlineText([
+                TextWithOptions("[adresse email]", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                Text("."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                TextWithOptions("[Date de la dernière mise à jour]", (
+                    styles: [
+                        ("font-weight", "bold"),
+                    ],
+                )),
+            ], false),
+        ]),
+        Paragraph([]),
+        Paragraph([]),
+    ],
+    styles: {
+        "pbNORMAL_TEXT": [
+            ("line-height", "1.7249999"),
+        ],
+    },
+)

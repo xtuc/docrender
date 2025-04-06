@@ -1,0 +1,2964 @@
+{
+  "title": "Publish-Bot sauleau.com: SNI support in SMTP",
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "startIndex": 1,
+        "endIndex": 79,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1,
+              "endIndex": 18,
+              "textRun": {
+                "content": "While working on ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 18,
+              "endIndex": 29,
+              "textRun": {
+                "content": "mailway.app",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://mailway.app/"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 29,
+              "endIndex": 74,
+              "textRun": {
+                "content": " I experimented with routing emails based on ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 74,
+              "endIndex": 77,
+              "textRun": {
+                "content": "SNI",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://en.wikipedia.org/wiki/Server_Name_Indication"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 77,
+              "endIndex": 79,
+              "textRun": {
+                "content": ".\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 79,
+        "endIndex": 80,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 79,
+              "endIndex": 80,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 80,
+        "endIndex": 116,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 80,
+              "endIndex": 116,
+              "textRun": {
+                "content": "Let’s imagine a common email setup:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 116,
+        "endIndex": 175,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 116,
+              "endIndex": 175,
+              "textRun": {
+                "content": "sauleau.com has a MX record that points to mx.sauleau.com.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.japnbklfoeu1",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 175,
+        "endIndex": 243,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 175,
+              "endIndex": 243,
+              "textRun": {
+                "content": "mx.sauleau.com has an A record that points to an email server’s IP.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            }
+          },
+          "bullet": {
+            "listId": "kix.japnbklfoeu1",
+            "textStyle": {}
+          }
+        }
+      },
+      {
+        "startIndex": 243,
+        "endIndex": 244,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 243,
+              "endIndex": 244,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT",
+            "indentFirstLine": {
+              "unit": "PT"
+            },
+            "indentStart": {
+              "unit": "PT"
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 244,
+        "endIndex": 385,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 244,
+              "endIndex": 318,
+              "textRun": {
+                "content": "When someone sends an email to hello@sauleau.com, it needs to resolve the ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 318,
+              "endIndex": 327,
+              "textRun": {
+                "content": "MX record",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://en.wikipedia.org/wiki/MX_record"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 327,
+              "endIndex": 385,
+              "textRun": {
+                "content": " and the A record to find the corresponding email server.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 385,
+        "endIndex": 386,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 385,
+              "endIndex": 386,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 386,
+        "endIndex": 595,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 386,
+              "endIndex": 595,
+              "textRun": {
+                "content": "Traditionally, mx.sauleau.com would run on its dedicated email server and listen on port 25. To run a secure email server we have a TLS certificate stored on the server issued specifically for mx.sauleau.com.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 595,
+        "endIndex": 596,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 595,
+              "endIndex": 596,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 596,
+        "endIndex": 902,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 596,
+              "endIndex": 902,
+              "textRun": {
+                "content": "The certificate is presented to anyone connecting to the IP and asking for a secure connection. Which implies that it’s not related to the hostname we used to resolve the IP (A record), more importantly, most clients will abort if the TLS certificate doesn’t match the hostname it attempted to connect to.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 902,
+        "endIndex": 903,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 902,
+              "endIndex": 903,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 903,
+        "endIndex": 1172,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 903,
+              "endIndex": 938,
+              "textRun": {
+                "content": "To address this issue we could use ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 938,
+              "endIndex": 941,
+              "textRun": {
+                "content": "SNI",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://en.wikipedia.org/wiki/Server_Name_Indication"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 941,
+              "endIndex": 1167,
+              "textRun": {
+                "content": " since it appears earlier in the SMTP communication with the email server and allows to select a TLS certificate to present to the client, which would use the right hostname. However, not all email clients support sending the ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 1167,
+              "endIndex": 1170,
+              "textRun": {
+                "content": "SNI",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://en.wikipedia.org/wiki/Server_Name_Indication"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 1170,
+              "endIndex": 1172,
+              "textRun": {
+                "content": ".\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1172,
+        "endIndex": 1196,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1172,
+              "endIndex": 1196,
+              "textRun": {
+                "content": "Email providers support\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.koddkb1zzi3y",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1196,
+        "endIndex": 1197,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1196,
+              "endIndex": 1197,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1197,
+        "endIndex": 1328,
+        "table": {
+          "rows": 8,
+          "columns": 2,
+          "tableRows": [
+            {
+              "startIndex": 1198,
+              "endIndex": 1220,
+              "tableCells": [
+                {
+                  "startIndex": 1199,
+                  "endIndex": 1205,
+                  "content": [
+                    {
+                      "startIndex": 1200,
+                      "endIndex": 1205,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1200,
+                            "endIndex": 1205,
+                            "textRun": {
+                              "content": "Name\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "alignment": "CENTER",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT",
+                          "spacingMode": "COLLAPSE_LISTS",
+                          "spaceAbove": {
+                            "unit": "PT"
+                          },
+                          "spaceBelow": {
+                            "unit": "PT"
+                          },
+                          "borderBetween": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderTop": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderBottom": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderLeft": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderRight": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "indentFirstLine": {
+                            "unit": "PT"
+                          },
+                          "indentStart": {
+                            "unit": "PT"
+                          },
+                          "indentEnd": {
+                            "unit": "PT"
+                          },
+                          "keepLinesTogether": false,
+                          "keepWithNext": false,
+                          "avoidWidowAndOrphan": false,
+                          "shading": {
+                            "backgroundColor": {}
+                          },
+                          "pageBreakBefore": false
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                },
+                {
+                  "startIndex": 1205,
+                  "endIndex": 1220,
+                  "content": [
+                    {
+                      "startIndex": 1206,
+                      "endIndex": 1220,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1206,
+                            "endIndex": 1220,
+                            "textRun": {
+                              "content": "Supports SNI?\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "alignment": "CENTER",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT",
+                          "spacingMode": "COLLAPSE_LISTS",
+                          "spaceAbove": {
+                            "unit": "PT"
+                          },
+                          "spaceBelow": {
+                            "unit": "PT"
+                          },
+                          "borderBetween": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderTop": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderBottom": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderLeft": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderRight": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "indentFirstLine": {
+                            "unit": "PT"
+                          },
+                          "indentStart": {
+                            "unit": "PT"
+                          },
+                          "indentEnd": {
+                            "unit": "PT"
+                          },
+                          "keepLinesTogether": false,
+                          "keepWithNext": false,
+                          "avoidWidowAndOrphan": false,
+                          "shading": {
+                            "backgroundColor": {}
+                          },
+                          "pageBreakBefore": false
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                }
+              ],
+              "tableRowStyle": {
+                "minRowHeight": {
+                  "unit": "PT"
+                }
+              }
+            },
+            {
+              "startIndex": 1220,
+              "endIndex": 1233,
+              "tableCells": [
+                {
+                  "startIndex": 1221,
+                  "endIndex": 1228,
+                  "content": [
+                    {
+                      "startIndex": 1222,
+                      "endIndex": 1228,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1222,
+                            "endIndex": 1227,
+                            "textRun": {
+                              "content": "Gmail",
+                              "textStyle": {
+                                "underline": true,
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.06666667,
+                                      "green": 0.33333334,
+                                      "blue": 0.8
+                                    }
+                                  }
+                                },
+                                "link": {
+                                  "url": "https://gmail.com/"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1227,
+                            "endIndex": 1228,
+                            "textRun": {
+                              "content": "\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                },
+                {
+                  "startIndex": 1228,
+                  "endIndex": 1233,
+                  "content": [
+                    {
+                      "startIndex": 1229,
+                      "endIndex": 1233,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1229,
+                            "endIndex": 1233,
+                            "textRun": {
+                              "content": "yes\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "alignment": "START",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT",
+                          "spacingMode": "COLLAPSE_LISTS",
+                          "spaceAbove": {
+                            "unit": "PT"
+                          },
+                          "spaceBelow": {
+                            "unit": "PT"
+                          },
+                          "borderBetween": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderTop": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderBottom": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderLeft": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderRight": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "indentFirstLine": {
+                            "unit": "PT"
+                          },
+                          "indentStart": {
+                            "unit": "PT"
+                          },
+                          "indentEnd": {
+                            "unit": "PT"
+                          },
+                          "keepLinesTogether": false,
+                          "keepWithNext": false,
+                          "avoidWidowAndOrphan": false,
+                          "shading": {
+                            "backgroundColor": {}
+                          },
+                          "pageBreakBefore": false
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                }
+              ],
+              "tableRowStyle": {
+                "minRowHeight": {
+                  "unit": "PT"
+                }
+              }
+            },
+            {
+              "startIndex": 1233,
+              "endIndex": 1245,
+              "tableCells": [
+                {
+                  "startIndex": 1234,
+                  "endIndex": 1241,
+                  "content": [
+                    {
+                      "startIndex": 1235,
+                      "endIndex": 1241,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1235,
+                            "endIndex": 1240,
+                            "textRun": {
+                              "content": "Yahoo",
+                              "textStyle": {
+                                "underline": true,
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.06666667,
+                                      "green": 0.33333334,
+                                      "blue": 0.8
+                                    }
+                                  }
+                                },
+                                "link": {
+                                  "url": "https://mail.yahoo.com/"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1240,
+                            "endIndex": 1241,
+                            "textRun": {
+                              "content": "\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                },
+                {
+                  "startIndex": 1241,
+                  "endIndex": 1245,
+                  "content": [
+                    {
+                      "startIndex": 1242,
+                      "endIndex": 1245,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1242,
+                            "endIndex": 1245,
+                            "textRun": {
+                              "content": "no\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "alignment": "START",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT",
+                          "spacingMode": "COLLAPSE_LISTS",
+                          "spaceAbove": {
+                            "unit": "PT"
+                          },
+                          "spaceBelow": {
+                            "unit": "PT"
+                          },
+                          "borderBetween": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderTop": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderBottom": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderLeft": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderRight": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "indentFirstLine": {
+                            "unit": "PT"
+                          },
+                          "indentStart": {
+                            "unit": "PT"
+                          },
+                          "indentEnd": {
+                            "unit": "PT"
+                          },
+                          "keepLinesTogether": false,
+                          "keepWithNext": false,
+                          "avoidWidowAndOrphan": false,
+                          "shading": {
+                            "backgroundColor": {}
+                          },
+                          "pageBreakBefore": false
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                }
+              ],
+              "tableRowStyle": {
+                "minRowHeight": {
+                  "unit": "PT"
+                }
+              }
+            },
+            {
+              "startIndex": 1245,
+              "endIndex": 1255,
+              "tableCells": [
+                {
+                  "startIndex": 1246,
+                  "endIndex": 1251,
+                  "content": [
+                    {
+                      "startIndex": 1247,
+                      "endIndex": 1251,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1247,
+                            "endIndex": 1250,
+                            "textRun": {
+                              "content": "AOL",
+                              "textStyle": {
+                                "underline": true,
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.06666667,
+                                      "green": 0.33333334,
+                                      "blue": 0.8
+                                    }
+                                  }
+                                },
+                                "link": {
+                                  "url": "https://mail.aol.com/"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1250,
+                            "endIndex": 1251,
+                            "textRun": {
+                              "content": "\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                },
+                {
+                  "startIndex": 1251,
+                  "endIndex": 1255,
+                  "content": [
+                    {
+                      "startIndex": 1252,
+                      "endIndex": 1255,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1252,
+                            "endIndex": 1255,
+                            "textRun": {
+                              "content": "no\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "alignment": "START",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT",
+                          "spacingMode": "COLLAPSE_LISTS",
+                          "spaceAbove": {
+                            "unit": "PT"
+                          },
+                          "spaceBelow": {
+                            "unit": "PT"
+                          },
+                          "borderBetween": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderTop": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderBottom": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderLeft": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderRight": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "indentFirstLine": {
+                            "unit": "PT"
+                          },
+                          "indentStart": {
+                            "unit": "PT"
+                          },
+                          "indentEnd": {
+                            "unit": "PT"
+                          },
+                          "keepLinesTogether": false,
+                          "keepWithNext": false,
+                          "avoidWidowAndOrphan": false,
+                          "shading": {
+                            "backgroundColor": {}
+                          },
+                          "pageBreakBefore": false
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                }
+              ],
+              "tableRowStyle": {
+                "minRowHeight": {
+                  "unit": "PT"
+                }
+              }
+            },
+            {
+              "startIndex": 1255,
+              "endIndex": 1272,
+              "tableCells": [
+                {
+                  "startIndex": 1256,
+                  "endIndex": 1268,
+                  "content": [
+                    {
+                      "startIndex": 1257,
+                      "endIndex": 1268,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1257,
+                            "endIndex": 1267,
+                            "textRun": {
+                              "content": "ProtonMail",
+                              "textStyle": {
+                                "underline": true,
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.06666667,
+                                      "green": 0.33333334,
+                                      "blue": 0.8
+                                    }
+                                  }
+                                },
+                                "link": {
+                                  "url": "https://protonmail.com/"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1267,
+                            "endIndex": 1268,
+                            "textRun": {
+                              "content": "\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                },
+                {
+                  "startIndex": 1268,
+                  "endIndex": 1272,
+                  "content": [
+                    {
+                      "startIndex": 1269,
+                      "endIndex": 1272,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1269,
+                            "endIndex": 1272,
+                            "textRun": {
+                              "content": "no\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "alignment": "START",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT",
+                          "spacingMode": "COLLAPSE_LISTS",
+                          "spaceAbove": {
+                            "unit": "PT"
+                          },
+                          "spaceBelow": {
+                            "unit": "PT"
+                          },
+                          "borderBetween": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderTop": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderBottom": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderLeft": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderRight": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "indentFirstLine": {
+                            "unit": "PT"
+                          },
+                          "indentStart": {
+                            "unit": "PT"
+                          },
+                          "indentEnd": {
+                            "unit": "PT"
+                          },
+                          "keepLinesTogether": false,
+                          "keepWithNext": false,
+                          "avoidWidowAndOrphan": false,
+                          "shading": {
+                            "backgroundColor": {}
+                          },
+                          "pageBreakBefore": false
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                }
+              ],
+              "tableRowStyle": {
+                "minRowHeight": {
+                  "unit": "PT"
+                }
+              }
+            },
+            {
+              "startIndex": 1272,
+              "endIndex": 1287,
+              "tableCells": [
+                {
+                  "startIndex": 1273,
+                  "endIndex": 1282,
+                  "content": [
+                    {
+                      "startIndex": 1274,
+                      "endIndex": 1282,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1274,
+                            "endIndex": 1281,
+                            "textRun": {
+                              "content": "Outlook",
+                              "textStyle": {
+                                "underline": true,
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.06666667,
+                                      "green": 0.33333334,
+                                      "blue": 0.8
+                                    }
+                                  }
+                                },
+                                "link": {
+                                  "url": "https://outlook.live.com/"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1281,
+                            "endIndex": 1282,
+                            "textRun": {
+                              "content": "\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                },
+                {
+                  "startIndex": 1282,
+                  "endIndex": 1287,
+                  "content": [
+                    {
+                      "startIndex": 1283,
+                      "endIndex": 1287,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1283,
+                            "endIndex": 1287,
+                            "textRun": {
+                              "content": "yes\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "alignment": "START",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT",
+                          "spacingMode": "COLLAPSE_LISTS",
+                          "spaceAbove": {
+                            "unit": "PT"
+                          },
+                          "spaceBelow": {
+                            "unit": "PT"
+                          },
+                          "borderBetween": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderTop": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderBottom": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderLeft": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderRight": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "indentFirstLine": {
+                            "unit": "PT"
+                          },
+                          "indentStart": {
+                            "unit": "PT"
+                          },
+                          "indentEnd": {
+                            "unit": "PT"
+                          },
+                          "keepLinesTogether": false,
+                          "keepWithNext": false,
+                          "avoidWidowAndOrphan": false,
+                          "shading": {
+                            "backgroundColor": {}
+                          },
+                          "pageBreakBefore": false
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                }
+              ],
+              "tableRowStyle": {
+                "minRowHeight": {
+                  "unit": "PT"
+                }
+              }
+            },
+            {
+              "startIndex": 1287,
+              "endIndex": 1302,
+              "tableCells": [
+                {
+                  "startIndex": 1288,
+                  "endIndex": 1297,
+                  "content": [
+                    {
+                      "startIndex": 1289,
+                      "endIndex": 1297,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1289,
+                            "endIndex": 1296,
+                            "textRun": {
+                              "content": "Mailgun",
+                              "textStyle": {
+                                "underline": true,
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.06666667,
+                                      "green": 0.33333334,
+                                      "blue": 0.8
+                                    }
+                                  }
+                                },
+                                "link": {
+                                  "url": "https://www.mailgun.com/"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1296,
+                            "endIndex": 1297,
+                            "textRun": {
+                              "content": "\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                },
+                {
+                  "startIndex": 1297,
+                  "endIndex": 1302,
+                  "content": [
+                    {
+                      "startIndex": 1298,
+                      "endIndex": 1302,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1298,
+                            "endIndex": 1302,
+                            "textRun": {
+                              "content": "yes\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "alignment": "START",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT",
+                          "spacingMode": "COLLAPSE_LISTS",
+                          "spaceAbove": {
+                            "unit": "PT"
+                          },
+                          "spaceBelow": {
+                            "unit": "PT"
+                          },
+                          "borderBetween": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderTop": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderBottom": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderLeft": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderRight": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "indentFirstLine": {
+                            "unit": "PT"
+                          },
+                          "indentStart": {
+                            "unit": "PT"
+                          },
+                          "indentEnd": {
+                            "unit": "PT"
+                          },
+                          "keepLinesTogether": false,
+                          "keepWithNext": false,
+                          "avoidWidowAndOrphan": false,
+                          "shading": {
+                            "backgroundColor": {}
+                          },
+                          "pageBreakBefore": false
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                }
+              ],
+              "tableRowStyle": {
+                "minRowHeight": {
+                  "unit": "PT"
+                }
+              }
+            },
+            {
+              "startIndex": 1302,
+              "endIndex": 1327,
+              "tableCells": [
+                {
+                  "startIndex": 1303,
+                  "endIndex": 1322,
+                  "content": [
+                    {
+                      "startIndex": 1304,
+                      "endIndex": 1322,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1304,
+                            "endIndex": 1313,
+                            "textRun": {
+                              "content": "Golang’s ",
+                              "textStyle": {}
+                            }
+                          },
+                          {
+                            "startIndex": 1313,
+                            "endIndex": 1321,
+                            "textRun": {
+                              "content": "net/smtp",
+                              "textStyle": {
+                                "underline": true,
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.06666667,
+                                      "green": 0.33333334,
+                                      "blue": 0.8
+                                    }
+                                  }
+                                },
+                                "link": {
+                                  "url": "https://golang.org/pkg/net/smtp/"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1321,
+                            "endIndex": 1322,
+                            "textRun": {
+                              "content": "\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                },
+                {
+                  "startIndex": 1322,
+                  "endIndex": 1327,
+                  "content": [
+                    {
+                      "startIndex": 1323,
+                      "endIndex": 1327,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1323,
+                            "endIndex": 1327,
+                            "textRun": {
+                              "content": "yes\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "alignment": "START",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT",
+                          "spacingMode": "COLLAPSE_LISTS",
+                          "spaceAbove": {
+                            "unit": "PT"
+                          },
+                          "spaceBelow": {
+                            "unit": "PT"
+                          },
+                          "borderBetween": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderTop": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderBottom": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderLeft": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "borderRight": {
+                            "color": {},
+                            "width": {
+                              "unit": "PT"
+                            },
+                            "padding": {
+                              "unit": "PT"
+                            },
+                            "dashStyle": "SOLID"
+                          },
+                          "indentFirstLine": {
+                            "unit": "PT"
+                          },
+                          "indentStart": {
+                            "unit": "PT"
+                          },
+                          "indentEnd": {
+                            "unit": "PT"
+                          },
+                          "keepLinesTogether": false,
+                          "keepWithNext": false,
+                          "avoidWidowAndOrphan": false,
+                          "shading": {
+                            "backgroundColor": {}
+                          },
+                          "pageBreakBefore": false
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 5,
+                      "unit": "PT"
+                    },
+                    "contentAlignment": "TOP"
+                  }
+                }
+              ],
+              "tableRowStyle": {
+                "minRowHeight": {
+                  "unit": "PT"
+                }
+              }
+            }
+          ],
+          "tableStyle": {
+            "tableColumnProperties": [
+              {
+                "widthType": "EVENLY_DISTRIBUTED"
+              },
+              {
+                "widthType": "EVENLY_DISTRIBUTED"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startIndex": 1328,
+        "endIndex": 1329,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1328,
+              "endIndex": 1329,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1329,
+        "endIndex": 1432,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1329,
+              "endIndex": 1432,
+              "textRun": {
+                "content": "This list is far from exhaustive, feel free to reach out if you want to try a specific email provider.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      }
+    ]
+  },
+  "documentStyle": {
+    "background": {
+      "color": {}
+    },
+    "pageNumberStart": 1,
+    "marginTop": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginBottom": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginRight": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginLeft": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "pageSize": {
+      "height": {
+        "magnitude": 841.8897637795277,
+        "unit": "PT"
+      },
+      "width": {
+        "magnitude": 595.27559055118115,
+        "unit": "PT"
+      }
+    },
+    "marginHeader": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "marginFooter": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "useCustomHeaderFooterMargins": true
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "textStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "smallCaps": false,
+          "backgroundColor": {},
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          },
+          "baselineOffset": "NONE"
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "alignment": "START",
+          "lineSpacing": 115,
+          "direction": "LEFT_TO_RIGHT",
+          "spacingMode": "COLLAPSE_LISTS",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "unit": "PT"
+          },
+          "borderBetween": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderTop": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderBottom": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderLeft": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderRight": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "indentFirstLine": {
+            "unit": "PT"
+          },
+          "indentStart": {
+            "unit": "PT"
+          },
+          "indentEnd": {
+            "unit": "PT"
+          },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "avoidWidowAndOrphan": true,
+          "shading": {
+            "backgroundColor": {}
+          },
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 20,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "textStyle": {
+          "bold": false,
+          "fontSize": {
+            "magnitude": 16,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 18,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "textStyle": {
+          "bold": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.2627451,
+                "green": 0.2627451,
+                "blue": 0.2627451
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 14,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 12,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 14,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "textStyle": {
+          "italic": true,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "TITLE",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 26,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 3,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "SUBTITLE",
+        "textStyle": {
+          "italic": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 15,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      }
+    ]
+  },
+  "lists": {
+    "kix.japnbklfoeu1": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.s5qmxqtynolj": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphType": "GLYPH_TYPE_UNSPECIFIED",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    }
+  },
+  "revisionId": "ALBJ4Lv6VtcyMAsdA1fI4bCgqiefu7oNLqvIgT4QXSiNVFqHDQ60jOKjY0s_tumqevckhv1q_zVBm8q7FDdlRek",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "documentId": "1BSGfCy5ZB0CdfE-k4ZXjns-LgTM3H_OUtp8ouFiir2A"
+}

@@ -1,0 +1,2299 @@
+{
+  "title": "Publish-Bot sauleau.com: Lambda Calculus - Functional condition",
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "startIndex": 1,
+        "endIndex": 17,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1,
+              "endIndex": 17,
+              "textRun": {
+                "content": "Lambda Calculus\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.s4pft4nxemdc",
+            "namedStyleType": "HEADING_1",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 17,
+        "endIndex": 111,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 17,
+              "endIndex": 111,
+              "textRun": {
+                "content": "If you have never heard about lambda calculus, here is a quick definition found on Wikipedia:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 111,
+        "endIndex": 112,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 111,
+              "endIndex": 112,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 112,
+        "endIndex": 314,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 112,
+              "endIndex": 314,
+              "textRun": {
+                "content": "“Lambda calculus (also written as λ-calculus) is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution.”\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 314,
+        "endIndex": 315,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 314,
+              "endIndex": 315,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 315,
+        "endIndex": 346,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 315,
+              "endIndex": 346,
+              "textRun": {
+                "content": "Basically, this is the syntax:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 346,
+        "endIndex": 394,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 346,
+              "endIndex": 394,
+              "textRun": {
+                "content": "\u003cfunction\u003e ::= λ \u003cvariable-list\u003e . \u003cexpression\u003e\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 394,
+        "endIndex": 395,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 394,
+              "endIndex": 395,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 395,
+        "endIndex": 429,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 395,
+              "endIndex": 429,
+              "textRun": {
+                "content": "An expression is also a variable.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 429,
+        "endIndex": 430,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 429,
+              "endIndex": 430,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 430,
+        "endIndex": 491,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 430,
+              "endIndex": 455,
+              "textRun": {
+                "content": "For example, here is the ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 455,
+              "endIndex": 489,
+              "textRun": {
+                "content": "identity function from mathematics",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://en.wikipedia.org/wiki/Identity_function"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 489,
+              "endIndex": 491,
+              "textRun": {
+                "content": ":\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 491,
+        "endIndex": 492,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 491,
+              "endIndex": 492,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 492,
+        "endIndex": 511,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 492,
+              "endIndex": 511,
+              "textRun": {
+                "content": "```Lambda Calculus\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 511,
+        "endIndex": 527,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 511,
+              "endIndex": 527,
+              "textRun": {
+                "content": "identity = λx.x\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 527,
+        "endIndex": 531,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 527,
+              "endIndex": 531,
+              "textRun": {
+                "content": "```\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 531,
+        "endIndex": 532,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 531,
+              "endIndex": 532,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 532,
+        "endIndex": 615,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 532,
+              "endIndex": 615,
+              "textRun": {
+                "content": "A more concrete example is its usage to represent types. In the following example:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 615,
+        "endIndex": 616,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 615,
+              "endIndex": 616,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 616,
+        "endIndex": 630,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 616,
+              "endIndex": 630,
+              "textRun": {
+                "content": "```JavaScript\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 630,
+        "endIndex": 652,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 630,
+              "endIndex": 652,
+              "textRun": {
+                "content": "function upper(str) {\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 652,
+        "endIndex": 679,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 652,
+              "endIndex": 679,
+              "textRun": {
+                "content": "  return str.toUpperCase()\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 679,
+        "endIndex": 681,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 679,
+              "endIndex": 681,
+              "textRun": {
+                "content": "}\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 681,
+        "endIndex": 685,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 681,
+              "endIndex": 685,
+              "textRun": {
+                "content": "```\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 685,
+        "endIndex": 692,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 685,
+              "endIndex": 692,
+              "textRun": {
+                "content": "      \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 692,
+        "endIndex": 706,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 692,
+              "endIndex": 706,
+              "textRun": {
+                "content": "has the type:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 706,
+        "endIndex": 707,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 706,
+              "endIndex": 707,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 707,
+        "endIndex": 730,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 707,
+              "endIndex": 730,
+              "textRun": {
+                "content": "```Lambda Calculus    \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 730,
+        "endIndex": 743,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 730,
+              "endIndex": 743,
+              "textRun": {
+                "content": "t' = λ t . t\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 743,
+        "endIndex": 744,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 743,
+              "endIndex": 744,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 744,
+        "endIndex": 789,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 744,
+              "endIndex": 789,
+              "textRun": {
+                "content": "// We can reduce it to infer the return type\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 789,
+        "endIndex": 812,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 789,
+              "endIndex": 812,
+              "textRun": {
+                "content": "t' = λ string . string\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 812,
+        "endIndex": 824,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 812,
+              "endIndex": 824,
+              "textRun": {
+                "content": "t' = string\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 824,
+        "endIndex": 825,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 824,
+              "endIndex": 825,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 825,
+        "endIndex": 856,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 825,
+              "endIndex": 856,
+              "textRun": {
+                "content": "// The result type is `string`\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 856,
+        "endIndex": 860,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 856,
+              "endIndex": 860,
+              "textRun": {
+                "content": "```\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 860,
+        "endIndex": 867,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 860,
+              "endIndex": 867,
+              "textRun": {
+                "content": "      \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 867,
+        "endIndex": 889,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 867,
+              "endIndex": 889,
+              "textRun": {
+                "content": "Let's define booleans\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.xsocaadlfd7j",
+            "namedStyleType": "HEADING_3",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 889,
+        "endIndex": 908,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 889,
+              "endIndex": 908,
+              "textRun": {
+                "content": "```Lambda Calculus\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 908,
+        "endIndex": 923,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 908,
+              "endIndex": 923,
+              "textRun": {
+                "content": "true = λx.λy.x\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 923,
+        "endIndex": 943,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 923,
+              "endIndex": 943,
+              "textRun": {
+                "content": "false = λx.λy.y    \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 943,
+        "endIndex": 947,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 943,
+              "endIndex": 947,
+              "textRun": {
+                "content": "```\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 947,
+        "endIndex": 979,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 947,
+              "endIndex": 979,
+              "textRun": {
+                "content": "Define the conditional operator\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.au5kuwd4ai6p",
+            "namedStyleType": "HEADING_3",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 979,
+        "endIndex": 998,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 979,
+              "endIndex": 998,
+              "textRun": {
+                "content": "```Lambda Calculus\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 998,
+        "endIndex": 1018,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 998,
+              "endIndex": 1018,
+              "textRun": {
+                "content": "if = λb.λt.λf.b t f\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1018,
+        "endIndex": 1022,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1018,
+              "endIndex": 1022,
+              "textRun": {
+                "content": "```\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1022,
+        "endIndex": 1051,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1022,
+              "endIndex": 1051,
+              "textRun": {
+                "content": "Define the logical operators\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.qn7y05feakq0",
+            "namedStyleType": "HEADING_3",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1051,
+        "endIndex": 1070,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1051,
+              "endIndex": 1070,
+              "textRun": {
+                "content": "```Lambda Calculus\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1070,
+        "endIndex": 1096,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1070,
+              "endIndex": 1096,
+              "textRun": {
+                "content": "and = λbb'. if b b' false\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1096,
+        "endIndex": 1120,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1096,
+              "endIndex": 1120,
+              "textRun": {
+                "content": "or = λbb'. if b true b'\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1120,
+        "endIndex": 1145,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1120,
+              "endIndex": 1145,
+              "textRun": {
+                "content": "not = λb.if b false true\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1145,
+        "endIndex": 1151,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1145,
+              "endIndex": 1151,
+              "textRun": {
+                "content": "```  \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1151,
+        "endIndex": 1159,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1151,
+              "endIndex": 1159,
+              "textRun": {
+                "content": "Example\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.yzyb2cejeco1",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1159,
+        "endIndex": 1251,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1159,
+              "endIndex": 1251,
+              "textRun": {
+                "content": "I decided to use OCaml for this example because it has partial application and a nice REPL.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1251,
+        "endIndex": 1364,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1251,
+              "endIndex": 1364,
+              "textRun": {
+                "content": "Since the conditional and logical operators are already in the language, I will prepend them with an underscore.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1364,
+        "endIndex": 1365,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1364,
+              "endIndex": 1365,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1365,
+        "endIndex": 1398,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1365,
+              "endIndex": 1398,
+              "textRun": {
+                "content": "Translate definitions into OCaml\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.jqf5nm66knwx",
+            "namedStyleType": "HEADING_3",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1398,
+        "endIndex": 1411,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1398,
+              "endIndex": 1411,
+              "textRun": {
+                "content": "```OCaml    \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1411,
+        "endIndex": 1431,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1411,
+              "endIndex": 1431,
+              "textRun": {
+                "content": "let _true x y = x;;\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1431,
+        "endIndex": 1459,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1431,
+              "endIndex": 1459,
+              "textRun": {
+                "content": "(* - : 'a -\u003e 'b -\u003e 'a =  *)\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1459,
+        "endIndex": 1460,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1459,
+              "endIndex": 1460,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1460,
+        "endIndex": 1481,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1460,
+              "endIndex": 1481,
+              "textRun": {
+                "content": "let _false x y = y;;\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1481,
+        "endIndex": 1509,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1481,
+              "endIndex": 1509,
+              "textRun": {
+                "content": "(* - : 'a -\u003e 'b -\u003e 'b =  *)\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1509,
+        "endIndex": 1513,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1509,
+              "endIndex": 1513,
+              "textRun": {
+                "content": "```\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1513,
+        "endIndex": 1514,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1513,
+              "endIndex": 1514,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1514,
+        "endIndex": 1572,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1514,
+              "endIndex": 1572,
+              "textRun": {
+                "content": "Note that it's similar to how an identity function works.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1572,
+        "endIndex": 1573,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1572,
+              "endIndex": 1573,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1573,
+        "endIndex": 1586,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1573,
+              "endIndex": 1586,
+              "textRun": {
+                "content": "```OCaml    \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1586,
+        "endIndex": 1610,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1586,
+              "endIndex": 1610,
+              "textRun": {
+                "content": "let _if b t f = b t f;;\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1610,
+        "endIndex": 1658,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1610,
+              "endIndex": 1658,
+              "textRun": {
+                "content": "(* - : ('a -\u003e 'b -\u003e 'c) -\u003e 'a -\u003e 'b -\u003e 'c =  *)\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1658,
+        "endIndex": 1662,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1658,
+              "endIndex": 1662,
+              "textRun": {
+                "content": "```\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1662,
+        "endIndex": 1669,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1662,
+              "endIndex": 1669,
+              "textRun": {
+                "content": "      \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1669,
+        "endIndex": 1788,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1669,
+              "endIndex": 1788,
+              "textRun": {
+                "content": "For the sake of simplicity, I won't declare all the operators for now. We can already evaluate some simple conditions.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1788,
+        "endIndex": 1789,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1788,
+              "endIndex": 1789,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1789,
+        "endIndex": 1810,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1789,
+              "endIndex": 1810,
+              "textRun": {
+                "content": "```OCaml            \n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1810,
+        "endIndex": 1869,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1810,
+              "endIndex": 1869,
+              "textRun": {
+                "content": "(* This is my condition, for now it's a constant `true` *)\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1869,
+        "endIndex": 1890,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1869,
+              "endIndex": 1890,
+              "textRun": {
+                "content": "let myCond = _true;;\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1890,
+        "endIndex": 1891,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1890,
+              "endIndex": 1891,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1891,
+        "endIndex": 1908,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1891,
+              "endIndex": 1908,
+              "textRun": {
+                "content": "_if myCond 1 0;;\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1908,
+        "endIndex": 1926,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1908,
+              "endIndex": 1926,
+              "textRun": {
+                "content": "(* - : int = 1 *)\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1926,
+        "endIndex": 1927,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1926,
+              "endIndex": 1927,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1927,
+        "endIndex": 1964,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1927,
+              "endIndex": 1964,
+              "textRun": {
+                "content": "(* and if my condition is `false` *)\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1964,
+        "endIndex": 1987,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1964,
+              "endIndex": 1987,
+              "textRun": {
+                "content": "let myCond2 = _false;;\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1987,
+        "endIndex": 1988,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1987,
+              "endIndex": 1988,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 1988,
+        "endIndex": 2006,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1988,
+              "endIndex": 2006,
+              "textRun": {
+                "content": "_if myCond2 1 0;;\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2006,
+        "endIndex": 2024,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2006,
+              "endIndex": 2024,
+              "textRun": {
+                "content": "(* - : int = 0 *)\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2024,
+        "endIndex": 2028,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2024,
+              "endIndex": 2028,
+              "textRun": {
+                "content": "```\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2028,
+        "endIndex": 2039,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2028,
+              "endIndex": 2039,
+              "textRun": {
+                "content": "Conclusion\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.m9gkfyk1fh1h",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2039,
+        "endIndex": 2171,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2039,
+              "endIndex": 2171,
+              "textRun": {
+                "content": "To be honest, I don't know why you would use this in real life code. There is no need to redefine the built-in condition mechanism.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2171,
+        "endIndex": 2172,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2171,
+              "endIndex": 2172,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2172,
+        "endIndex": 2224,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2172,
+              "endIndex": 2182,
+              "textRun": {
+                "content": "Thanks to ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 2182,
+              "endIndex": 2195,
+              "textRun": {
+                "content": "Danny Willems",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://twitter.com/dwillems42"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 2195,
+              "endIndex": 2224,
+              "textRun": {
+                "content": " for introducing me to this.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 2224,
+        "endIndex": 2225,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2224,
+              "endIndex": 2225,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      }
+    ]
+  },
+  "documentStyle": {
+    "background": {
+      "color": {}
+    },
+    "pageNumberStart": 1,
+    "marginTop": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginBottom": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginRight": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginLeft": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "pageSize": {
+      "height": {
+        "magnitude": 841.8897637795277,
+        "unit": "PT"
+      },
+      "width": {
+        "magnitude": 595.27559055118115,
+        "unit": "PT"
+      }
+    },
+    "marginHeader": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "marginFooter": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "useCustomHeaderFooterMargins": true
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "textStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "smallCaps": false,
+          "backgroundColor": {},
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          },
+          "baselineOffset": "NONE"
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "alignment": "START",
+          "lineSpacing": 115,
+          "direction": "LEFT_TO_RIGHT",
+          "spacingMode": "COLLAPSE_LISTS",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "unit": "PT"
+          },
+          "borderBetween": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderTop": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderBottom": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderLeft": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderRight": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "indentFirstLine": {
+            "unit": "PT"
+          },
+          "indentStart": {
+            "unit": "PT"
+          },
+          "indentEnd": {
+            "unit": "PT"
+          },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "avoidWidowAndOrphan": true,
+          "shading": {
+            "backgroundColor": {}
+          },
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 20,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "textStyle": {
+          "bold": false,
+          "fontSize": {
+            "magnitude": 16,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 18,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "textStyle": {
+          "bold": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.2627451,
+                "green": 0.2627451,
+                "blue": 0.2627451
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 14,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 12,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 14,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "textStyle": {
+          "italic": true,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "TITLE",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 26,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 3,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "SUBTITLE",
+        "textStyle": {
+          "italic": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 15,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      }
+    ]
+  },
+  "revisionId": "ALBJ4Ls0GstwjDvsMNa5A1SQ8HU5IvrYDHKiV0-J3jQ7wxy-wjoPBMCXIpQEvl-bX_yAxkI-VAFqHN3kjdNNFWE",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "documentId": "1JQP4FeFDyq47kymdjX5t16muXpVrvVNLoxgiIdpCuDY"
+}

@@ -1,0 +1,99 @@
+<style>
+  .pbNORMAL_TEXT {
+    line-height: 1.7249999;
+  }
+</style>
+<h2 id="pb-What%20is%20this%3F">What is this?</h2>
+<p>
+  This refers to the proposal
+  <a
+    style="text-decoration: underline; color: rgb(6.666667%, 33.333336%, 80%)"
+    href="https://github.com/tc39/proposal-pipeline-operator"
+    >https://github.com/tc39/proposal-pipeline-operator</a
+  >.
+</p>
+<h2 id="pb-Define%20the%20compose%20function">Define the compose function</h2>
+<p>
+  While ∘ is the official symbol in mathematics, it's not a valid JavaScript
+  identifier.
+</p>
+<p>
+  I will be using ᐅ which looks like the pipe operator |&gt; in most languages.
+</p>
+<pre><code class="language-js"><codeblock-js>String.prototype.ᐅ = function(f) {
+  return f(this)
+}
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>
+<p>
+  Note that it's a new method on JavaScript's String object. It could work the
+  same on every object (even on Object).
+</p>
+<h2 id="pb-Usage">Usage</h2>
+<p>This is the same example as in the proposal.</p>
+<pre><code class="language-js"><codeblock-js>function doubleSay (str) {
+  return str + ", " + str;
+}
+function capitalize (str) {
+  return str[0].toUpperCase() + str.substring(1);
+}
+function exclaim (str) {
+  return str + '!';
+}
+
+let result = "hello"
+  .ᐅ (doubleSay)
+  .ᐅ (capitalize)
+  .ᐅ (exclaim)
+
+result //=> "Hello, hello!"
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>

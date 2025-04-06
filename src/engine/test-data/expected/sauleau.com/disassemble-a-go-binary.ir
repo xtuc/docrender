@@ -1,0 +1,210 @@
+(
+    content: [
+        Clear,
+        Title((
+            level: 2,
+            text: Text("Simple program"),
+        ), []),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("The example project uses the following files:"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Title((
+            level: 3,
+            text: Text("secret/secret.go:"),
+        ), []),
+        Clear,
+        Paragraph([]),
+        Code("go", "package secret\n\nimport \"log\"\n\nfunc ILoveTrains() {\n    log.Println(\"secret\")\n}\n"),
+        Clear,
+        Paragraph([]),
+        Title((
+            level: 3,
+            text: Text("cmd/test/main.go:"),
+        ), []),
+        Clear,
+        Paragraph([]),
+        Code("go", "package main\n\nimport \"github.com/xtuc/example/secret\"\n\nfunc main() {\n    secret.ILoveTrains()\n}\n"),
+        Clear,
+        Title((
+            level: 2,
+            text: Text("Disassembly"),
+        ), []),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("You actually don\'t need to disassemble the binary. For the sake of simplicity, I\'ll only use strings against the binary."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Code("bash", "$ cd cmd/test\n$ go build\n$ strings ./test | grep secret\n\ngithub.com/xtuc/example/secret.ILoveTrains\n[…]\n"),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Note that Go won\'t include can that you don\'t use. All the imports are used."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("We can clearly see that github.com/xtuc is loving trains and even see the file structure. It makes no sense to include such information in the final binary, it\'s what we call a disclosure."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("You might have noticed that I didn\'t stripped the binary. Let\'s try again with a stripped binary."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Code("bash", "$ cd cmd/test\n$ go build -ldflags=\"-s -w\"\n$ file ./test\ntest: ELF 64-bit LSB executable […] stripped\n$ strings ./test | grep secret\n\ngithub.com/xtuc/example/secret.ILoveTrains\n[…]\n"),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Even with a stripped (it\'s meant for distribution) we can still see them."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Since the binary is stripped we don\'t have debugging symbols anymore:"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Code("bash", "$ nm ./test\nnm: ./test: no symbols\n"),
+        Clear,
+        Title((
+            level: 2,
+            text: Text("Stack Overflow, what\'s the solution?"),
+        ), []),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Stack Overflow can be useful in many cases, but not this time. This is the answer I read:"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Why do you need even that?"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Don\'t distribute Golang binaries."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Definitely not helpful."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Title((
+            level: 2,
+            text: Text("Golang, what\'s the solution?"),
+        ), []),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("I didn\'t ask, so this is not their answer: as many things in Golang, it\'s highly opinionated and specific to Google\'s needs."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Since they don\'t distribute any Go binary, why would they invest time in an obfuscation process."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Title((
+            level: 2,
+            text: Text("What\'s the real solution?"),
+        ), []),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Since the Golang compiler won\'t mangle function names, I decided to mangle them before passing it to the compiler."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("It\'s a source mangler: "),
+            ], false),
+            InlineText([
+                TextWithOptions("https://github.com/xtuc/manglo", (
+                    link: Some("https://github.com/xtuc/manglo"),
+                    styles: [
+                        ("text-decoration", "underline"),
+                        ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                Text("."),
+            ], false),
+        ]),
+        Paragraph([]),
+        Paragraph([]),
+        Title((
+            level: 2,
+            text: Text("Alternative compiler backends"),
+        ), []),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("My example uses the default Go compiler. I tried the gccgo compiler (GCC with a Go fronted) but it refused to compile because the imports weren\'t quite the same (might have changed somewhere around Go1.9)."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("GCC mangles all names."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Title((
+            level: 2,
+            text: Text("Packing?"),
+        ), []),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Packing the binary will indeed removing the clear strings."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Anyone having disassemble skills will notice it immediately and revert the process (unpack)."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("I\'m not sure if it works cross-platform."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Paragraph([]),
+    ],
+    styles: {
+        "pbNORMAL_TEXT": [
+            ("line-height", "1.7249999"),
+        ],
+    },
+)

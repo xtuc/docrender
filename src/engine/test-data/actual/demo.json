@@ -1,0 +1,881 @@
+{
+  "title": "Publish-Bot demo",
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "startIndex": 1,
+        "endIndex": 19,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1,
+              "endIndex": 19,
+              "textRun": {
+                "content": "Turn any document\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.vleoh07olg87",
+            "namedStyleType": "TITLE",
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 19,
+        "endIndex": 34,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 19,
+              "endIndex": 34,
+              "textRun": {
+                "content": "into a website\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.vleoh07olg87",
+            "namedStyleType": "TITLE",
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 34,
+        "endIndex": 35,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 34,
+              "endIndex": 35,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 35,
+        "endIndex": 95,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 35,
+              "endIndex": 95,
+              "textRun": {
+                "content": "Publish Bot allows you to turn any document into a website.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.w99vcdbqjel7",
+            "namedStyleType": "HEADING_2",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 95,
+        "endIndex": 162,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 95,
+              "endIndex": 111,
+              "textRun": {
+                "content": "This is a demo. ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 111,
+              "endIndex": 112,
+              "textRun": {
+                "content": "M",
+                "textStyle": {
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 1
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 112,
+              "endIndex": 113,
+              "textRun": {
+                "content": "o",
+                "textStyle": {
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 1,
+                        "green": 0.6
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 113,
+              "endIndex": 114,
+              "textRun": {
+                "content": "s",
+                "textStyle": {
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.6,
+                        "blue": 1
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 114,
+              "endIndex": 115,
+              "textRun": {
+                "content": "t",
+                "textStyle": {
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.15294118,
+                        "green": 0.30588236,
+                        "blue": 0.07450981
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 115,
+              "endIndex": 135,
+              "textRun": {
+                "content": " of the Google Docs ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 135,
+              "endIndex": 143,
+              "textRun": {
+                "content": "features",
+                "textStyle": {
+                  "italic": true
+                }
+              }
+            },
+            {
+              "startIndex": 143,
+              "endIndex": 148,
+              "textRun": {
+                "content": " are ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 148,
+              "endIndex": 157,
+              "textRun": {
+                "content": "supported",
+                "textStyle": {
+                  "bold": true
+                }
+              }
+            },
+            {
+              "startIndex": 157,
+              "endIndex": 162,
+              "textRun": {
+                "content": " 😀.\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 162,
+        "endIndex": 163,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 162,
+              "endIndex": 163,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 163,
+        "endIndex": 180,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 163,
+              "endIndex": 180,
+              "textRun": {
+                "content": "And code blocks:\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 180,
+        "endIndex": 186,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 180,
+              "endIndex": 186,
+              "textRun": {
+                "content": "```js\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 186,
+        "endIndex": 214,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 186,
+              "endIndex": 214,
+              "textRun": {
+                "content": "console.log(“code example”)\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 214,
+        "endIndex": 218,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 214,
+              "endIndex": 218,
+              "textRun": {
+                "content": "```\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 218,
+        "endIndex": 220,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 218,
+              "endIndex": 219,
+              "inlineObjectElement": {
+                "inlineObjectId": "kix.uiranxs7r93n",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 219,
+              "endIndex": 220,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 220,
+        "endIndex": 221,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 220,
+              "endIndex": 221,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 221,
+        "endIndex": 346,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 221,
+              "endIndex": 249,
+              "textRun": {
+                "content": "See the source Google Docs: ",
+                "textStyle": {}
+              }
+            },
+            {
+              "startIndex": 249,
+              "endIndex": 345,
+              "textRun": {
+                "content": "https://docs.google.com/document/d/1nSn4UBI-xo0tE5PwJOq7Dp3TgLlhT7b-dM3rK2xcHsk/edit?usp=sharing",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "link": {
+                    "url": "https://docs.google.com/document/d/1nSn4UBI-xo0tE5PwJOq7Dp3TgLlhT7b-dM3rK2xcHsk/edit?usp=sharing"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 345,
+              "endIndex": 346,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      }
+    ]
+  },
+  "documentStyle": {
+    "background": {
+      "color": {}
+    },
+    "pageNumberStart": 1,
+    "marginTop": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginBottom": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginRight": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginLeft": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "pageSize": {
+      "height": {
+        "magnitude": 841.8897637795277,
+        "unit": "PT"
+      },
+      "width": {
+        "magnitude": 595.27559055118115,
+        "unit": "PT"
+      }
+    },
+    "marginHeader": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "marginFooter": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "useCustomHeaderFooterMargins": true
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "textStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "smallCaps": false,
+          "backgroundColor": {},
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          },
+          "baselineOffset": "NONE"
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "alignment": "START",
+          "lineSpacing": 115,
+          "direction": "LEFT_TO_RIGHT",
+          "spacingMode": "COLLAPSE_LISTS",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "unit": "PT"
+          },
+          "borderBetween": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderTop": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderBottom": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderLeft": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderRight": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "indentFirstLine": {
+            "unit": "PT"
+          },
+          "indentStart": {
+            "unit": "PT"
+          },
+          "indentEnd": {
+            "unit": "PT"
+          },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "avoidWidowAndOrphan": true,
+          "shading": {
+            "backgroundColor": {}
+          },
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 20,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "textStyle": {
+          "bold": false,
+          "fontSize": {
+            "magnitude": 16,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 18,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "textStyle": {
+          "bold": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.2627451,
+                "green": 0.2627451,
+                "blue": 0.2627451
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 14,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 12,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 14,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "textStyle": {
+          "italic": true,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "TITLE",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 26,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 3,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "SUBTITLE",
+        "textStyle": {
+          "italic": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 15,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      }
+    ]
+  },
+  "revisionId": "ALBJ4LtmDz5htvoWmoASuyvIofa5fMpnDmSMvFkej6Q_OGkGl9lIcAblmmuzQGc7oODywG31w6fSnRPgGxct3U0",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "inlineObjects": {
+    "kix.uiranxs7r93n": {
+      "objectId": "kix.uiranxs7r93n",
+      "inlineObjectProperties": {
+        "embeddedObject": {
+          "imageProperties": {
+            "contentUri": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXf39uRj45OCD9jV4sAWeI17BZbc57elpnSdLcgNUffYYzOTAUrlgWJCOjDfkk8IylG9qhc-kDMCG86Q7XtZA9FCRjhScN5WmQzplq2V_avUbO7xZBUDQXc3ynuF9znmyItfIARqwIoJlO4B-KITBcy6XLE?key=pCWSwNGfNMAcn7cyLin2Lg",
+            "cropProperties": {}
+          },
+          "embeddedObjectBorder": {
+            "color": {
+              "color": {
+                "rgbColor": {}
+              }
+            },
+            "width": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID",
+            "propertyState": "NOT_RENDERED"
+          },
+          "size": {
+            "height": {
+              "magnitude": 67.139040064844821,
+              "unit": "PT"
+            },
+            "width": {
+              "magnitude": 66.487204724409423,
+              "unit": "PT"
+            }
+          },
+          "marginTop": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginBottom": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginRight": {
+            "magnitude": 9,
+            "unit": "PT"
+          },
+          "marginLeft": {
+            "magnitude": 9,
+            "unit": "PT"
+          }
+        }
+      }
+    }
+  },
+  "documentId": "1nSn4UBI-xo0tE5PwJOq7Dp3TgLlhT7b-dM3rK2xcHsk"
+}

@@ -1,0 +1,236 @@
+<style>
+  .pbNORMAL_TEXT {
+    line-height: 1.7249999;
+  }
+</style>
+<h2 id="pb-Simple%20program">Simple program</h2>
+<p>The example project uses the following files:</p>
+<h3 id="pb-secret%2Fsecret.go%3A">secret/secret.go:</h3>
+<pre><code class="language-go"><codeblock-js>package secret
+
+import "log"
+
+func ILoveTrains() {
+    log.Println("secret")
+}
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>
+<h3 id="pb-cmd%2Ftest%2Fmain.go%3A">cmd/test/main.go:</h3>
+<pre><code class="language-go"><codeblock-js>package main
+
+import "github.com/xtuc/example/secret"
+
+func main() {
+    secret.ILoveTrains()
+}
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>
+<h2 id="pb-Disassembly">Disassembly</h2>
+<p>
+  You actually don't need to disassemble the binary. For the sake of simplicity,
+  I'll only use strings against the binary.
+</p>
+<pre><code class="language-bash"><codeblock-js>$ cd cmd/test
+$ go build
+$ strings ./test | grep secret
+
+github.com/xtuc/example/secret.ILoveTrains
+[…]
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>
+<p>
+  Note that Go won't include can that you don't use. All the imports are used.
+</p>
+<p>
+  We can clearly see that github.com/xtuc is loving trains and even see the file
+  structure. It makes no sense to include such information in the final binary,
+  it's what we call a disclosure.
+</p>
+<p>
+  You might have noticed that I didn't stripped the binary. Let's try again with
+  a stripped binary.
+</p>
+<pre><code class="language-bash"><codeblock-js>$ cd cmd/test
+$ go build -ldflags="-s -w"
+$ file ./test
+test: ELF 64-bit LSB executable […] stripped
+$ strings ./test | grep secret
+
+github.com/xtuc/example/secret.ILoveTrains
+[…]
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>
+<p>Even with a stripped (it's meant for distribution) we can still see them.</p>
+<p>Since the binary is stripped we don't have debugging symbols anymore:</p>
+<pre><code class="language-bash"><codeblock-js>$ nm ./test
+nm: ./test: no symbols
+</codeblock-js></code></pre>
+<style>
+  script[visible],
+  style[visible],
+  pre {
+    display: block;
+    white-space: pre;
+    border: 1px solid #dedede;
+    padding: 1em;
+    background: #fafafa;
+    overflow-x: auto;
+    border-left: 0.4em solid cornflowerblue;
+    tab-size: 2;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+
+  code:not(pre code), /* output:not(code:has(output) output) */ {
+    background: #f7f7f7;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0;
+    border-radius: 0.2rem;
+    display: inline-block;
+  }
+</style>
+<h2 id="pb-Stack%20Overflow%2C%20what%27s%20the%20solution%3F">
+  Stack Overflow, what's the solution?
+</h2>
+<p>
+  Stack Overflow can be useful in many cases, but not this time. This is the
+  answer I read:
+</p>
+<p>Why do you need even that?</p>
+<p>Don't distribute Golang binaries.</p>
+<p>Definitely not helpful.</p>
+<h2 id="pb-Golang%2C%20what%27s%20the%20solution%3F">
+  Golang, what's the solution?
+</h2>
+<p>
+  I didn't ask, so this is not their answer: as many things in Golang, it's
+  highly opinionated and specific to Google's needs.
+</p>
+<p>
+  Since they don't distribute any Go binary, why would they invest time in an
+  obfuscation process.
+</p>
+<h2 id="pb-What%27s%20the%20real%20solution%3F">What's the real solution?</h2>
+<p>
+  Since the Golang compiler won't mangle function names, I decided to mangle
+  them before passing it to the compiler.
+</p>
+<p>
+  It's a source mangler:
+  <a
+    style="text-decoration: underline; color: rgb(6.666667%, 33.333336%, 80%)"
+    href="https://github.com/xtuc/manglo"
+    >https://github.com/xtuc/manglo</a
+  >.
+</p>
+<h2 id="pb-Alternative%20compiler%20backends">Alternative compiler backends</h2>
+<p>
+  My example uses the default Go compiler. I tried the gccgo compiler (GCC with
+  a Go fronted) but it refused to compile because the imports weren't quite the
+  same (might have changed somewhere around Go1.9).
+</p>
+<p>GCC mangles all names.</p>
+<h2 id="pb-Packing%3F">Packing?</h2>
+<p>Packing the binary will indeed removing the clear strings.</p>
+<p>
+  Anyone having disassemble skills will notice it immediately and revert the
+  process (unpack).
+</p>
+<p>I'm not sure if it works cross-platform.</p>

@@ -1,0 +1,66 @@
+(
+    content: [
+        Clear,
+        Title((
+            level: 1,
+            text: Text("Title"),
+        ), []),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("subtitle"),
+            ], true),
+        ]),
+        Clear,
+        Title((
+            level: 2,
+            text: Text("Heading 1"),
+        ), []),
+        Clear,
+        Title((
+            level: 3,
+            text: Text("Heading 2"),
+        ), []),
+        Clear,
+        Title((
+            level: 2,
+            text: Text("Heading 1 - 2"),
+        ), []),
+        Clear,
+        Title((
+            level: 3,
+            text: Text("Heading 2 - 2"),
+        ), []),
+        Clear,
+        Title((
+            level: 4,
+            text: Text("Heading 3 - 2"),
+        ), []),
+        Clear,
+        Title((
+            level: 4,
+            text: Text("Heading 3"),
+        ), []),
+        Clear,
+        Title((
+            level: 5,
+            text: Text("Heading 4"),
+        ), []),
+        Clear,
+        Title((
+            level: 2,
+            text: Text("Heading 1 two"),
+        ), []),
+        Clear,
+        Title((
+            level: 2,
+            text: Text("lines"),
+        ), []),
+        Clear,
+    ],
+    styles: {
+        "pbNORMAL_TEXT": [
+            ("line-height", "1.7249999"),
+        ],
+    },
+)

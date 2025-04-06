@@ -1,0 +1,9 @@
+[workspace.package]
+version = "1.0.0"
+authors = ["Sven Sauleau <sven@sauleau.com>"]
+edition = "2021"
+
+[workspace]
+members = [
+    "src/*"
+]

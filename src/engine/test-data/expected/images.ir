@@ -1,0 +1,70 @@
+(
+    content: [
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Middle:"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            Image("https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQWBfwce4u73xbSlFK1Cxno-5O8_QMCUXuyGdOBHUV6d33o45oCBW-5sUaq0T6gZpFF98l4v4snJGLM95_RnXmIqxr4i8qh5bQZI52pWc2-hoNy-ZYmvCGxLDQ7I0tFnFv-uRPZ4l0AK95dune4cakn_-M?key=L81KPS631quh92g5K29tLA", ("82", "83"), [
+                ("text-align", "center"),
+                ("margin-left", "auto"),
+                ("margin-right", "auto"),
+            ]),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Right:"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            Image("https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQWBfwce4u73xbSlFK1Cxno-5O8_QMCUXuyGdOBHUV6d33o45oCBW-5sUaq0T6gZpFF98l4v4snJGLM95_RnXmIqxr4i8qh5bQZI52pWc2-hoNy-ZYmvCGxLDQ7I0tFnFv-uRPZ4l0AK95dune4cakn_-M?key=L81KPS631quh92g5K29tLA", ("82", "83"), [
+                ("text-align", "right"),
+            ]),
+        ]),
+        Clear,
+        Paragraph([]),
+        Paragraph([
+            InlineText([
+                Text("Left:"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            Image("https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQWBfwce4u73xbSlFK1Cxno-5O8_QMCUXuyGdOBHUV6d33o45oCBW-5sUaq0T6gZpFF98l4v4snJGLM95_RnXmIqxr4i8qh5bQZI52pWc2-hoNy-ZYmvCGxLDQ7I0tFnFv-uRPZ4l0AK95dune4cakn_-M?key=L81KPS631quh92g5K29tLA", ("82", "83"), []),
+        ]),
+        Clear,
+        Paragraph([]),
+        Paragraph([
+            InlineText([
+                Text("Small:"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            Image("https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQWBfwce4u73xbSlFK1Cxno-5O8_QMCUXuyGdOBHUV6d33o45oCBW-5sUaq0T6gZpFF98l4v4snJGLM95_RnXmIqxr4i8qh5bQZI52pWc2-hoNy-ZYmvCGxLDQ7I0tFnFv-uRPZ4l0AK95dune4cakn_-M?key=L81KPS631quh92g5K29tLA", ("24", "24"), []),
+        ]),
+        Clear,
+        Paragraph([]),
+        Paragraph([
+            InlineText([
+                Text("cropped:"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            Image("https://lh7-rt.googleusercontent.com/docsz/AD_4nXdQWBfwce4u73xbSlFK1Cxno-5O8_QMCUXuyGdOBHUV6d33o45oCBW-5sUaq0T6gZpFF98l4v4snJGLM95_RnXmIqxr4i8qh5bQZI52pWc2-hoNy-ZYmvCGxLDQ7I0tFnFv-uRPZ4l0AK95dune4cakn_-M?key=L81KPS631quh92g5K29tLA", ("36", "45"), []),
+        ]),
+        Clear,
+        Paragraph([]),
+    ],
+    styles: {
+        "pbNORMAL_TEXT": [
+            ("line-height", "1.7249999"),
+        ],
+    },
+)

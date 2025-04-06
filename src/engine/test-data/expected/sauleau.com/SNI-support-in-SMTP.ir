@@ -1,0 +1,268 @@
+(
+    content: [
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("While working on "),
+            ], false),
+            InlineText([
+                TextWithOptions("mailway.app", (
+                    link: Some("https://mailway.app/"),
+                    styles: [
+                        ("text-decoration", "underline"),
+                        ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                Text(" I experimented with routing emails based on "),
+            ], false),
+            InlineText([
+                TextWithOptions("SNI", (
+                    link: Some("https://en.wikipedia.org/wiki/Server_Name_Indication"),
+                    styles: [
+                        ("text-decoration", "underline"),
+                        ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                Text("."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Let’s imagine a common email setup:"),
+            ], true),
+        ]),
+        Clear,
+        Clear,
+        List([
+            InlineText([
+                Text("sauleau.com has a MX record that points to mx.sauleau.com."),
+            ], true),
+            InlineText([
+                Text("mx.sauleau.com has an A record that points to an email server’s IP."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("When someone sends an email to hello@sauleau.com, it needs to resolve the "),
+            ], false),
+            InlineText([
+                TextWithOptions("MX record", (
+                    link: Some("https://en.wikipedia.org/wiki/MX_record"),
+                    styles: [
+                        ("text-decoration", "underline"),
+                        ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                Text(" and the A record to find the corresponding email server."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Traditionally, mx.sauleau.com would run on its dedicated email server and listen on port 25. To run a secure email server we have a TLS certificate stored on the server issued specifically for mx.sauleau.com."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("The certificate is presented to anyone connecting to the IP and asking for a secure connection. Which implies that it’s not related to the hostname we used to resolve the IP (A record), more importantly, most clients will abort if the TLS certificate doesn’t match the hostname it attempted to connect to."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("To address this issue we could use "),
+            ], false),
+            InlineText([
+                TextWithOptions("SNI", (
+                    link: Some("https://en.wikipedia.org/wiki/Server_Name_Indication"),
+                    styles: [
+                        ("text-decoration", "underline"),
+                        ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                Text(" since it appears earlier in the SMTP communication with the email server and allows to select a TLS certificate to present to the client, which would use the right hostname. However, not all email clients support sending the "),
+            ], false),
+            InlineText([
+                TextWithOptions("SNI", (
+                    link: Some("https://en.wikipedia.org/wiki/Server_Name_Indication"),
+                    styles: [
+                        ("text-decoration", "underline"),
+                        ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                Text("."),
+            ], true),
+        ]),
+        Clear,
+        Title((
+            level: 2,
+            text: Text("Email providers support"),
+        ), []),
+        Clear,
+        Paragraph([]),
+        Table((
+            rows: [
+                (
+                    cells: [
+                        InlineText([
+                            TextWithOptions("Name", (
+                                styles: [
+                                    ("text-align", "center"),
+                                    ("margin-left", "auto"),
+                                    ("margin-right", "auto"),
+                                ],
+                            )),
+                        ], false),
+                        InlineText([
+                            TextWithOptions("Supports SNI?", (
+                                styles: [
+                                    ("text-align", "center"),
+                                    ("margin-left", "auto"),
+                                    ("margin-right", "auto"),
+                                ],
+                            )),
+                        ], false),
+                    ],
+                ),
+                (
+                    cells: [
+                        InlineText([
+                            TextWithOptions("Gmail", (
+                                link: Some("https://gmail.com/"),
+                                styles: [
+                                    ("text-decoration", "underline"),
+                                    ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                                ],
+                            )),
+                        ], false),
+                        InlineText([
+                            Text("yes"),
+                        ], false),
+                    ],
+                ),
+                (
+                    cells: [
+                        InlineText([
+                            TextWithOptions("Yahoo", (
+                                link: Some("https://mail.yahoo.com/"),
+                                styles: [
+                                    ("text-decoration", "underline"),
+                                    ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                                ],
+                            )),
+                        ], false),
+                        InlineText([
+                            Text("no"),
+                        ], false),
+                    ],
+                ),
+                (
+                    cells: [
+                        InlineText([
+                            TextWithOptions("AOL", (
+                                link: Some("https://mail.aol.com/"),
+                                styles: [
+                                    ("text-decoration", "underline"),
+                                    ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                                ],
+                            )),
+                        ], false),
+                        InlineText([
+                            Text("no"),
+                        ], false),
+                    ],
+                ),
+                (
+                    cells: [
+                        InlineText([
+                            TextWithOptions("ProtonMail", (
+                                link: Some("https://protonmail.com/"),
+                                styles: [
+                                    ("text-decoration", "underline"),
+                                    ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                                ],
+                            )),
+                        ], false),
+                        InlineText([
+                            Text("no"),
+                        ], false),
+                    ],
+                ),
+                (
+                    cells: [
+                        InlineText([
+                            TextWithOptions("Outlook", (
+                                link: Some("https://outlook.live.com/"),
+                                styles: [
+                                    ("text-decoration", "underline"),
+                                    ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                                ],
+                            )),
+                        ], false),
+                        InlineText([
+                            Text("yes"),
+                        ], false),
+                    ],
+                ),
+                (
+                    cells: [
+                        InlineText([
+                            TextWithOptions("Mailgun", (
+                                link: Some("https://www.mailgun.com/"),
+                                styles: [
+                                    ("text-decoration", "underline"),
+                                    ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                                ],
+                            )),
+                        ], false),
+                        InlineText([
+                            Text("yes"),
+                        ], false),
+                    ],
+                ),
+                (
+                    cells: [
+                        InlineText([
+                            Text("Golang’s "),
+                            TextWithOptions("net/smtp", (
+                                link: Some("https://golang.org/pkg/net/smtp/"),
+                                styles: [
+                                    ("text-decoration", "underline"),
+                                    ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                                ],
+                            )),
+                        ], false),
+                        InlineText([
+                            Text("yes"),
+                        ], false),
+                    ],
+                ),
+            ],
+        )),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("This list is far from exhaustive, feel free to reach out if you want to try a specific email provider."),
+            ], true),
+        ]),
+        Clear,
+    ],
+    styles: {
+        "pbNORMAL_TEXT": [
+            ("line-height", "1.7249999"),
+        ],
+    },
+)

@@ -1,0 +1,179 @@
+(
+    content: [
+        Clear,
+        Title((
+            level: 2,
+            text: Text("Lambda Calculus"),
+        ), []),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("If you have never heard about lambda calculus, here is a quick definition found on Wikipedia:"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("“Lambda calculus (also written as λ-calculus) is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution.”"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Basically, this is the syntax:"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("<function> ::= λ <variable-list> . <expression>"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("An expression is also a variable."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("For example, here is the "),
+            ], false),
+            InlineText([
+                TextWithOptions("identity function from mathematics", (
+                    link: Some("https://en.wikipedia.org/wiki/Identity_function"),
+                    styles: [
+                        ("text-decoration", "underline"),
+                        ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                Text(":"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Code("lambda calculus", "identity = λx.x\n"),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("A more concrete example is its usage to represent types. In the following example:"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Code("js", "function upper(str) {\n  return str.toUpperCase()\n}\n"),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("has the type:"),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Code("lambda calculus", "t\' = λ t . t\n\n// We can reduce it to infer the return type\nt\' = λ string . string\nt\' = string\n\n// The result type is `string`\n"),
+        Clear,
+        Paragraph([]),
+        Title((
+            level: 4,
+            text: Text("Let\'s define booleans"),
+        ), []),
+        Clear,
+        Code("lambda calculus", "true = λx.λy.x\nfalse = λx.λy.y    \n"),
+        Clear,
+        Title((
+            level: 4,
+            text: Text("Define the conditional operator"),
+        ), []),
+        Clear,
+        Code("lambda calculus", "if = λb.λt.λf.b t f\n"),
+        Clear,
+        Title((
+            level: 4,
+            text: Text("Define the logical operators"),
+        ), []),
+        Clear,
+        Code("lambda calculus", "and = λbb\'. if b b\' false\nor = λbb\'. if b true b\'\nnot = λb.if b false true\n"),
+        Clear,
+        Title((
+            level: 3,
+            text: Text("Example"),
+        ), []),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("I decided to use OCaml for this example because it has partial application and a nice REPL."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Since the conditional and logical operators are already in the language, I will prepend them with an underscore."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Title((
+            level: 4,
+            text: Text("Translate definitions into OCaml"),
+        ), []),
+        Clear,
+        Code("ocaml", "let _true x y = x;;\n(* - : \'a -> \'b -> \'a =  *)\n\nlet _false x y = y;;\n(* - : \'a -> \'b -> \'b =  *)\n"),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Note that it\'s similar to how an identity function works."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Code("ocaml", "let _if b t f = b t f;;\n(* - : (\'a -> \'b -> \'c) -> \'a -> \'b -> \'c =  *)\n"),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("For the sake of simplicity, I won\'t declare all the operators for now. We can already evaluate some simple conditions."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+        Code("ocaml", "(* This is my condition, for now it\'s a constant `true` *)\nlet myCond = _true;;\n\n_if myCond 1 0;;\n(* - : int = 1 *)\n\n(* and if my condition is `false` *)\nlet myCond2 = _false;;\n\n_if myCond2 1 0;;\n(* - : int = 0 *)\n"),
+        Clear,
+        Title((
+            level: 3,
+            text: Text("Conclusion"),
+        ), []),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("To be honest, I don\'t know why you would use this in real life code. There is no need to redefine the built-in condition mechanism."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([
+            InlineText([
+                Text("Thanks to "),
+            ], false),
+            InlineText([
+                TextWithOptions("Danny Willems", (
+                    link: Some("https://twitter.com/dwillems42"),
+                    styles: [
+                        ("text-decoration", "underline"),
+                        ("color", "rgb(6.666667%, 33.333336%, 80%)"),
+                    ],
+                )),
+            ], false),
+            InlineText([
+                Text(" for introducing me to this."),
+            ], true),
+        ]),
+        Clear,
+        Paragraph([]),
+    ],
+    styles: {
+        "pbNORMAL_TEXT": [
+            ("line-height", "1.7249999"),
+        ],
+    },
+)
